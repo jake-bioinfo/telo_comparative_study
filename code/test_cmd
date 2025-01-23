@@ -1,0 +1,1 @@
+./tecat_pipeline.R -t 18 -o ~/tmp/comparative_study_temp/test_out/ -m ~/tmp/comparative_study_temp/tmp/ -p "HG00732" -i ~/tmp/comparative_study_temp/HG00732/lr/ERR4987503-5.fastq -n 6 -r ~/tmp/comparative_study_temp/test_out/results.csv -f "pb" -x ~/science_projects/telo/shared_data/hs/ref/chm13v2.0.fa.gz

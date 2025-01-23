@@ -1,0 +1,516 @@
+
+temp_directory: /home/jake/tmp/comparative_study_temp
+output_directory: ../results
+input_dir: /media/jake/HG00514
+sample: HG00514
+threads: 18
+platform: ont
+
+sending incremental file list
+./
+ERR3988781.sorted.bam
+         32,768   0%    0.00kB/s    0:00:00      353,992,704   0%  337.56MB/s    0:01:52      601,194,496   1%  286.80MB/s    0:02:11      774,209,536   1%  246.27MB/s    0:02:32      990,412,800   2%  236.24MB/s    0:02:38    1,179,418,624   3%  196.90MB/s    0:03:08    1,388,412,928   3%  187.78MB/s    0:03:16    1,586,331,648   4%  193.72MB/s    0:03:09    1,796,046,848   4%  192.17MB/s    0:03:10    2,006,155,264   5%  197.21MB/s    0:03:04    2,202,107,904   5%  194.10MB/s    0:03:06    2,377,482,240   6%  188.72MB/s    0:03:10    2,570,092,544   6%  184.64MB/s    0:03:13    2,772,795,392   7%  182.87MB/s    0:03:14    2,973,007,872   7%  183.89MB/s    0:03:12    3,183,017,984   8%  192.15MB/s    0:03:03    3,384,442,880   8%  194.30MB/s    0:03:00    3,585,966,080   9%  194.02MB/s    0:02:59    3,795,419,136   9%  196.23MB/s    0:02:56    3,998,842,880  10%  194.65MB/s    0:02:56    4,194,729,984  10%  193.28MB/s    0:02:57    4,402,544,640  11%  194.78MB/s    0:02:54    4,592,074,752  11%  190.08MB/s    0:02:58    4,801,265,664  12%  191.41MB/s    0:02:55    5,007,114,240  12%  193.83MB/s    0:02:52    5,215,977,472  13%  194.08MB/s    0:02:51    5,423,661,056  13%  198.41MB/s    0:02:46    5,632,065,536  14%  198.23MB/s    0:02:45    5,832,212,480  14%  196.87MB/s    0:02:45    6,034,587,648  15%  195.32MB/s    0:02:46    6,238,535,680  15%  194.38MB/s    0:02:45    6,432,915,456  16%  191.03MB/s    0:02:47    6,631,030,784  16%  190.55MB/s    0:02:47    6,827,900,928  17%  189.24MB/s    0:02:47    7,026,868,224  17%  188.09MB/s    0:02:47    7,225,933,824  18%  189.21MB/s    0:02:45    7,425,523,712  18%  189.56MB/s    0:02:43    7,625,277,440  19%  190.25MB/s    0:02:42    7,811,661,824  19%  187.25MB/s    0:02:43    7,980,351,488  20%  180.00MB/s    0:02:49    8,158,478,336  20%  174.88MB/s    0:02:53    8,349,319,168  21%  172.75MB/s    0:02:54    8,552,808,448  21%  176.84MB/s    0:02:49    8,744,108,032  22%  182.23MB/s    0:02:43    8,941,764,608  22%  186.89MB/s    0:02:38    9,142,042,624  23%  189.09MB/s    0:02:35    9,327,116,288  23%  184.70MB/s    0:02:38    9,528,442,880  24%  187.14MB/s    0:02:35    9,734,029,312  24%  189.03MB/s    0:02:32    9,935,880,192  25%  189.41MB/s    0:02:31   10,135,371,776  25%  192.85MB/s    0:02:27   10,345,152,512  26%  194.86MB/s    0:02:24   10,550,018,048  26%  194.69MB/s    0:02:23   10,754,293,760  27%  195.27MB/s    0:02:22   10,951,688,192  27%  194.72MB/s    0:02:21   11,154,259,968  28%  193.00MB/s    0:02:22   11,351,130,112  28%  191.10MB/s    0:02:22   11,558,551,552  29%  191.80MB/s    0:02:20   11,773,607,936  30%  196.06MB/s    0:02:16   11,971,952,640  30%  195.05MB/s    0:02:16   12,180,094,976  31%  197.74MB/s    0:02:13   12,376,375,296  31%  195.08MB/s    0:02:14   12,588,548,096  32%  194.39MB/s    0:02:13   12,799,016,960  32%  197.34MB/s    0:02:10   13,000,736,768  33%  195.80MB/s    0:02:10   13,214,973,952  33%  200.09MB/s    0:02:07   13,401,423,872  34%  193.90MB/s    0:02:10   13,567,164,416  34%  183.23MB/s    0:02:16   13,731,987,456  34%  174.43MB/s    0:02:22   13,935,181,824  35%  171.80MB/s    0:02:23   14,129,659,904  36%  173.76MB/s    0:02:21   14,320,599,040  36%  179.77MB/s    0:02:15   14,530,674,688  37%  190.56MB/s    0:02:06   14,727,806,976  37%  189.12MB/s    0:02:06   14,927,364,096  38%  190.33MB/s    0:02:04   15,133,671,424  38%  194.00MB/s    0:02:01   15,337,553,920  39%  192.47MB/s    0:02:01   15,537,242,112  39%  193.13MB/s    0:01:59   15,741,321,216  40%  194.16MB/s    0:01:58   15,939,960,832  40%  192.38MB/s    0:01:58   16,146,694,144  41%  193.06MB/s    0:01:56   16,356,835,328  41%  195.55MB/s    0:01:54   16,554,426,368  42%  193.96MB/s    0:01:54   16,749,527,040  42%  193.11MB/s    0:01:53   16,956,817,408  43%  193.25MB/s    0:01:52   17,166,270,464  43%  193.08MB/s    0:01:51   17,373,691,904  44%  195.47MB/s    0:01:49   17,586,028,544  44%  199.59MB/s    0:01:45   17,785,257,984  45%  197.66MB/s    0:01:45   17,973,411,840  45%  192.58MB/s    0:01:47   18,174,541,824  46%  191.08MB/s    0:01:47   18,373,902,336  46%  187.98MB/s    0:01:48   18,557,206,528  47%  184.19MB/s    0:01:49   18,764,562,432  47%  188.77MB/s    0:01:45   18,954,616,832  48%  186.12MB/s    0:01:46   19,131,924,480  48%  180.86MB/s    0:01:48   19,298,877,440  49%  176.92MB/s    0:01:50   19,466,125,312  49%  167.35MB/s    0:01:55   19,672,367,104  50%  171.21MB/s    0:01:51   19,872,710,656  50%  176.66MB/s    0:01:47   20,066,697,216  51%  183.15MB/s    0:01:42   20,267,237,376  51%  191.10MB/s    0:01:36   20,471,119,872  52%  190.53MB/s    0:01:36   20,676,313,088  52%  191.69MB/s    0:01:34   20,869,120,000  53%  191.41MB/s    0:01:33   21,070,413,824  53%  191.64MB/s    0:01:32   21,278,523,392  54%  192.64MB/s    0:01:31   21,481,160,704  54%  191.99MB/s    0:01:30   21,696,446,464  55%  197.35MB/s    0:01:26   21,903,802,368  55%  198.79MB/s    0:01:25   22,109,061,120  56%  198.11MB/s    0:01:24   22,291,120,128  56%  193.25MB/s    0:01:25   22,474,555,392  57%  185.65MB/s    0:01:28   22,695,411,712  57%  188.83MB/s    0:01:25   22,900,932,608  58%  188.89MB/s    0:01:24   23,089,479,680  58%  190.44MB/s    0:01:22   23,289,364,480  59%  194.36MB/s    0:01:20   23,499,735,040  59%  191.86MB/s    0:01:20   23,688,544,256  60%  187.92MB/s    0:01:20   23,882,989,568  60%  189.28MB/s    0:01:19   24,083,529,728  61%  189.44MB/s    0:01:18   24,278,302,720  61%  185.72MB/s    0:01:18   24,464,097,280  62%  185.00MB/s    0:01:17   24,681,938,944  62%  190.58MB/s    0:01:14   24,885,166,080  63%  191.22MB/s    0:01:13   25,067,094,016  63%  188.16MB/s    0:01:13   25,232,179,200  64%  183.22MB/s    0:01:14   25,405,194,240  64%  172.52MB/s    0:01:18   25,618,251,776  65%  174.87MB/s    0:01:16   25,834,061,824  65%  183.00MB/s    0:01:11   26,034,601,984  66%  191.46MB/s    0:01:07   26,241,957,888  66%  199.65MB/s    0:01:03   26,456,391,680  67%  199.98MB/s    0:01:02   26,652,999,680  67%  195.40MB/s    0:01:02   26,850,263,040  68%  194.61MB/s    0:01:02   27,048,837,120  68%  192.47MB/s    0:01:01   27,236,859,904  69%  186.22MB/s    0:01:02   27,423,440,896  69%  183.83MB/s    0:01:02   27,621,883,904  70%  184.06MB/s    0:01:01   27,818,295,296  70%  183.59MB/s    0:01:00   28,026,044,416  71%  188.30MB/s    0:00:58   28,233,793,536  71%  193.35MB/s    0:00:55   28,435,316,736  72%  194.08MB/s    0:00:54   28,635,660,288  72%  194.97MB/s    0:00:53   28,844,130,304  73%  195.14MB/s    0:00:52   29,051,453,440  74%  195.09MB/s    0:00:50   29,251,633,152  74%  194.77MB/s    0:00:50   29,464,756,224  75%  197.77MB/s    0:00:48   29,645,176,832  75%  191.08MB/s    0:00:49   29,847,650,304  76%  189.92MB/s    0:00:48   30,053,335,040  76%  191.24MB/s    0:00:46   30,253,088,768  77%  188.09MB/s    0:00:46   30,436,327,424  77%  188.77MB/s    0:00:45   30,650,761,216  78%  191.57MB/s    0:00:43   30,847,303,680  78%  189.44MB/s    0:00:43   31,050,203,136  79%  190.19MB/s    0:00:42   31,230,164,992  79%  189.41MB/s    0:00:41   31,394,660,352  80%  177.49MB/s    0:00:43   31,580,520,448  80%  174.94MB/s    0:00:42   31,798,624,256  81%  178.57MB/s    0:00:40   32,006,766,592  81%  185.30MB/s    0:00:38   32,215,236,608  82%  195.79MB/s    0:00:35   32,425,738,240  82%  201.67MB/s    0:00:32   32,620,969,984  83%  196.16MB/s    0:00:32   32,822,362,112  83%  194.55MB/s    0:00:32   33,020,477,440  84%  192.08MB/s    0:00:31   33,214,201,856  84%  188.08MB/s    0:00:31   33,412,349,952  85%  188.77MB/s    0:00:30   33,627,340,800  85%  192.02MB/s    0:00:28   33,828,405,248  86%  192.72MB/s    0:00:27   34,025,078,784  86%  193.42MB/s    0:00:26   34,231,123,968  87%  195.31MB/s    0:00:25   34,422,423,552  87%  189.70MB/s    0:00:24   34,626,437,120  88%  190.36MB/s    0:00:23   34,833,727,488  88%  192.94MB/s    0:00:22   35,040,952,320  89%  193.22MB/s    0:00:21   35,249,553,408  89%  197.35MB/s    0:00:19   35,451,994,112  90%  196.98MB/s    0:00:18   35,639,361,536  90%  192.22MB/s    0:00:18   35,824,107,520  91%  186.86MB/s    0:00:17   36,020,715,520  91%  184.00MB/s    0:00:17   36,205,527,040  92%  179.79MB/s    0:00:16   36,396,236,800  92%  180.59MB/s    0:00:15   36,579,704,832  93%  180.28MB/s    0:00:14   36,769,988,608  93%  178.77MB/s    0:00:13   36,975,640,576  94%  183.75MB/s    0:00:12   37,181,489,152  94%  187.36MB/s    0:00:10   37,342,707,712  95%  182.05MB/s    0:00:10   37,499,502,592  95%  174.06MB/s    0:00:09   37,673,861,120  96%  166.59MB/s    0:00:09   37,866,733,568  96%  163.50MB/s    0:00:08   38,065,733,632  97%  172.51MB/s    0:00:06   38,282,559,488  97%  186.84MB/s    0:00:05   38,480,805,888  98%  192.54MB/s    0:00:03   38,690,390,016  98%  196.42MB/s    0:00:02   38,895,648,768  99%  197.87MB/s    0:00:01   39,094,091,776  99%  193.53MB/s    0:00:00   39,239,295,301 100%  190.34MB/s    0:03:16 (xfr#1, to-chk=22/24)
+dl_map_sr.smk
+          1,477 100%    1.90kB/s    0:00:00            1,477 100%    1.90kB/s    0:00:00 (xfr#2, to-chk=21/24)
+.snakemake/
+.snakemake/auxiliary/
+.snakemake/conda-archive/
+.snakemake/conda/
+.snakemake/incomplete/
+.snakemake/locks/
+.snakemake/log/
+.snakemake/log/2024-12-11T160016.949509.snakemake.log
+          1,603 100%    2.04kB/s    0:00:00            1,603 100%    2.04kB/s    0:00:00 (xfr#3, to-chk=8/24)
+.snakemake/metadata/
+.snakemake/metadata/RVJSMzk4ODc4MS5zYW0=
+            479 100%    0.61kB/s    0:00:00              479 100%    0.61kB/s    0:00:00 (xfr#4, to-chk=7/24)
+.snakemake/shadow/
+.snakemake/singularity/
+lr/
+lr/ERR4982327.fastq
+         32,768   0%   41.03kB/s  352:49:40       45,514,752   0%   43.41MB/s    0:19:31      260,603,904   0%  124.33MB/s    0:06:47      481,329,152   0%  153.11MB/s    0:05:29      696,025,088   1%  166.03MB/s    0:05:02      911,310,848   1%  206.53MB/s    0:04:02    1,092,190,208   2%  198.36MB/s    0:04:11    1,307,279,360   2%  197.02MB/s    0:04:11    1,528,594,432   2%  198.60MB/s    0:04:08    1,735,426,048   3%  196.58MB/s    0:04:10    1,954,906,112   3%  205.84MB/s    0:03:57    2,178,252,800   4%  207.81MB/s    0:03:54    2,391,900,160   4%  205.93MB/s    0:03:55    2,610,593,792   5%  208.81MB/s    0:03:51    2,822,045,696   5%  206.90MB/s    0:03:52    3,028,582,400   5%  202.84MB/s    0:03:56    3,240,460,288   6%  202.46MB/s    0:03:55    3,452,469,248   6%  200.87MB/s    0:03:56    3,628,335,104   6%  192.33MB/s    0:04:06    3,800,727,552   7%  184.23MB/s    0:04:16    4,008,214,528   7%  183.18MB/s    0:04:16    4,210,622,464   8%  180.89MB/s    0:04:18    4,410,671,104   8%  186.66MB/s    0:04:09    4,619,337,728   8%  195.32MB/s    0:03:57    4,815,814,656   9%  192.69MB/s    0:03:59    5,029,330,944   9%  195.34MB/s    0:03:55    5,236,621,312  10%  197.07MB/s    0:03:52    5,445,025,792  10%  197.01MB/s    0:03:51    5,652,840,448  10%  199.71MB/s    0:03:47    5,873,631,232  11%  201.40MB/s    0:03:44    6,084,984,832  11%  202.42MB/s    0:03:42    6,300,401,664  12%  204.09MB/s    0:03:39    6,517,948,416  12%  206.41MB/s    0:03:35    6,720,618,496  12%  202.09MB/s    0:03:39    6,938,198,016  13%  203.57MB/s    0:03:36    7,147,192,320  13%  202.04MB/s    0:03:37    7,318,044,672  14%  190.85MB/s    0:03:49    7,527,235,584  14%  192.41MB/s    0:03:46    7,760,347,136  14%  196.11MB/s    0:03:40    7,960,363,008  15%  193.97MB/s    0:03:42    8,112,668,672  15%  189.60MB/s    0:03:46    8,289,091,584  15%  181.78MB/s    0:03:55    8,501,035,008  16%  176.73MB/s    0:04:00    8,723,202,048  16%  182.01MB/s    0:03:52    8,936,882,176  17%  196.66MB/s    0:03:34    9,152,364,544  17%  205.97MB/s    0:03:23    9,365,913,600  17%  206.31MB/s    0:03:22    9,576,415,232  18%  203.57MB/s    0:03:24    9,751,330,816  18%  194.33MB/s    0:03:32    9,920,151,552  19%  183.15MB/s    0:03:44   10,094,739,456  19%  173.85MB/s    0:03:56   10,298,163,200  19%  172.16MB/s    0:03:57   10,499,424,256  20%  178.40MB/s    0:03:47   10,698,915,840  20%  185.72MB/s    0:03:37   10,892,378,112  20%  190.22MB/s    0:03:31   11,099,471,872  21%  191.09MB/s    0:03:29   11,311,939,584  21%  193.82MB/s    0:03:25   11,501,600,768  22%  191.47MB/s    0:03:27   11,696,898,048  22%  191.96MB/s    0:03:25   11,899,142,144  22%  190.80MB/s    0:03:25   12,099,878,912  23%  188.00MB/s    0:03:27   12,294,651,904  23%  189.22MB/s    0:03:25   12,497,813,504  23%  191.10MB/s    0:03:22   12,691,734,528  24%  189.11MB/s    0:03:23   12,900,466,688  24%  190.97MB/s    0:03:20   13,105,135,616  25%  193.33MB/s    0:03:17   13,293,092,864  25%  189.75MB/s    0:03:19   13,493,862,400  25%  191.39MB/s    0:03:17   13,692,010,496  26%  188.86MB/s    0:03:18   13,895,565,312  26%  188.59MB/s    0:03:17   14,101,610,496  27%  192.91MB/s    0:03:12   14,307,065,856  27%  194.03MB/s    0:03:10   14,489,026,560  27%  190.17MB/s    0:03:13   14,692,745,216  28%  190.21MB/s    0:03:12   14,899,707,904  28%  190.42MB/s    0:03:10   15,105,622,016  28%  190.53MB/s    0:03:09   15,297,052,672  29%  192.79MB/s    0:03:06   15,512,731,648  29%  195.65MB/s    0:03:02   15,717,466,112  30%  195.12MB/s    0:03:02   15,922,397,184  30%  194.88MB/s    0:03:01   16,096,264,192  30%  190.64MB/s    0:03:04   16,267,706,368  31%  180.09MB/s    0:03:14   16,462,413,824  31%  177.70MB/s    0:03:15   16,683,139,072  32%  181.47MB/s    0:03:10   16,888,922,112  32%  189.08MB/s    0:03:01   17,089,789,952  32%  196.10MB/s    0:02:54   17,299,439,616  33%  199.66MB/s    0:02:50   17,500,504,064  33%  194.97MB/s    0:02:53   17,699,012,608  33%  193.24MB/s    0:02:53   17,911,611,392  34%  196.04MB/s    0:02:50   18,117,328,896  34%  195.10MB/s    0:02:50   18,318,032,896  35%  195.06MB/s    0:02:49   18,531,581,952  35%  198.65MB/s    0:02:45   18,751,488,000  35%  200.39MB/s    0:02:42   18,951,208,960  36%  198.96MB/s    0:02:42   19,161,513,984  36%  201.25MB/s    0:02:39   19,359,236,096  37%  197.48MB/s    0:02:41   19,562,856,448  37%  193.54MB/s    0:02:44   19,770,736,640  37%  195.49MB/s    0:02:41   19,979,665,408  38%  195.16MB/s    0:02:40   20,186,628,096  38%  197.36MB/s    0:02:37   20,386,775,040  39%  196.54MB/s    0:02:37   20,583,317,504  39%  193.83MB/s    0:02:38   20,771,536,896  39%  188.94MB/s    0:02:41   20,973,912,064  40%  187.84MB/s    0:02:41   21,168,357,376  40%  186.48MB/s    0:02:42   21,362,212,864  40%  185.84MB/s    0:02:41   21,556,396,032  41%  187.27MB/s    0:02:39   21,761,196,032  41%  187.80MB/s    0:02:37   21,970,452,480  42%  191.33MB/s    0:02:33   22,177,939,456  42%  194.63MB/s    0:02:30   22,342,631,424  42%  187.59MB/s    0:02:34   22,508,830,720  43%  178.38MB/s    0:02:42   22,702,292,992  43%  174.62MB/s    0:02:44   22,905,389,056  43%  173.57MB/s    0:02:44   23,113,793,536  44%  184.00MB/s    0:02:33   23,324,622,848  44%  194.65MB/s    0:02:24   23,528,570,880  45%  197.15MB/s    0:02:21   23,732,224,000  45%  197.28MB/s    0:02:20   23,943,020,544  45%  197.85MB/s    0:02:19   24,149,262,336  46%  196.71MB/s    0:02:18   24,361,664,512  46%  198.77MB/s    0:02:16   24,568,954,880  47%  199.59MB/s    0:02:14   24,779,194,368  47%  199.46MB/s    0:02:13   24,984,649,728  47%  199.32MB/s    0:02:12   25,197,641,728  48%  199.46MB/s    0:02:11   25,403,424,768  48%  196.89MB/s    0:02:12   25,593,479,168  49%  192.17MB/s    0:02:14   25,815,318,528  49%  196.04MB/s    0:02:10   26,019,135,488  49%  193.82MB/s    0:02:11   26,226,294,784  50%  196.33MB/s    0:02:08   26,440,859,648  50%  202.18MB/s    0:02:03   26,645,135,360  51%  197.99MB/s    0:02:05   26,844,823,552  51%  197.01MB/s    0:02:05   27,045,789,696  51%  195.53MB/s    0:02:05   27,241,807,872  52%  191.10MB/s    0:02:07   27,441,004,544  52%  189.89MB/s    0:02:06   27,647,115,264  53%  191.42MB/s    0:02:04   27,814,297,600  53%  183.32MB/s    0:02:09   27,980,300,288  53%  176.16MB/s    0:02:13   28,180,905,984  54%  176.54MB/s    0:02:12   28,377,448,448  54%  174.21MB/s    0:02:13   28,568,879,104  54%  180.04MB/s    0:02:07   28,775,841,792  55%  189.81MB/s    0:02:00   28,969,828,352  55%  188.23MB/s    0:02:00   29,176,922,112  55%  190.70MB/s    0:01:57   29,375,889,408  56%  192.50MB/s    0:01:55   29,571,448,832  56%  189.78MB/s    0:01:55   29,764,124,672  57%  189.47MB/s    0:01:55   29,972,267,008  57%  189.72MB/s    0:01:53   30,176,346,112  57%  190.94MB/s    0:01:52   30,382,522,368  58%  193.47MB/s    0:01:49   30,592,958,464  58%  197.71MB/s    0:01:46   30,803,525,632  59%  198.29MB/s    0:01:44   31,016,386,560  59%  200.38MB/s    0:01:42   31,192,612,864  59%  193.24MB/s    0:01:45   31,406,260,224  60%  193.95MB/s    0:01:44   31,610,667,008  60%  192.49MB/s    0:01:44   31,816,450,048  61%  190.80MB/s    0:01:43   32,017,514,496  61%  196.72MB/s    0:01:39   32,215,695,360  61%  193.08MB/s    0:01:40   32,405,487,616  62%  189.59MB/s    0:01:41   32,592,986,112  62%  185.23MB/s    0:01:42   32,801,488,896  62%  187.05MB/s    0:01:40   33,023,328,256  63%  192.70MB/s    0:01:36   33,205,092,352  63%  190.78MB/s    0:01:36   33,407,205,376  64%  194.27MB/s    0:01:34   33,613,971,456  64%  193.86MB/s    0:01:33   33,816,084,480  64%  189.15MB/s    0:01:34   33,999,716,352  65%  189.60MB/s    0:01:33   34,166,636,544  65%  181.15MB/s    0:01:36   34,329,100,288  65%  170.59MB/s    0:01:41   34,515,812,352  66%  166.91MB/s    0:01:42   34,729,197,568  66%  174.01MB/s    0:01:37   34,923,970,560  67%  180.70MB/s    0:01:32   35,129,098,240  67%  190.88MB/s    0:01:26   35,337,568,256  67%  196.07MB/s    0:01:23   35,547,086,848  68%  195.15MB/s    0:01:22   35,743,563,776  68%  195.55MB/s    0:01:21   35,950,723,072  68%  196.04MB/s    0:01:20   36,149,428,224  69%  193.71MB/s    0:01:20   36,358,914,048  69%  193.70MB/s    0:01:19   36,552,671,232  70%  191.71MB/s    0:01:19   36,740,628,480  70%  187.16MB/s    0:01:20   36,938,743,808  70%  186.97MB/s    0:01:19   37,155,536,896  71%  188.70MB/s    0:01:17   37,372,592,128  71%  195.58MB/s    0:01:13   37,576,867,840  72%  199.47MB/s    0:01:11   37,800,738,816  72%  205.62MB/s    0:01:07   38,009,864,192  72%  203.79MB/s    0:01:07   38,218,792,960  73%  201.85MB/s    0:01:07   38,417,301,504  73%  200.53MB/s    0:01:06   38,604,210,176  74%  191.71MB/s    0:01:08   38,793,478,144  74%  186.97MB/s    0:01:09   39,003,127,808  74%  187.14MB/s    0:01:08   39,211,040,768  75%  189.38MB/s    0:01:06   39,406,632,960  75%  191.46MB/s    0:01:04   39,610,843,136  76%  195.02MB/s    0:01:02   39,814,201,344  76%  193.47MB/s    0:01:02   40,021,295,104  76%  193.28MB/s    0:01:01   40,208,465,920  77%  191.27MB/s    0:01:00   40,375,517,184  77%  182.40MB/s    0:01:02   40,508,686,336  77%  165.66MB/s    0:01:08   40,701,624,320  78%  162.28MB/s    0:01:08   40,907,407,360  78%  166.72MB/s    0:01:05   41,107,947,520  78%  174.71MB/s    0:01:01   41,313,402,880  79%  191.96MB/s    0:00:54   41,507,979,264  79%  192.35MB/s    0:00:53   41,700,917,248  80%  189.28MB/s    0:00:53   41,912,991,744  80%  192.03MB/s    0:00:51   42,109,206,528  80%  189.83MB/s    0:00:51   42,313,482,240  81%  192.19MB/s    0:00:49   42,519,855,104  81%  195.40MB/s    0:00:47   42,719,543,296  81%  192.44MB/s    0:00:47   42,917,986,304  82%  192.97MB/s    0:00:46   43,125,407,744  82%  193.72MB/s    0:00:45   43,322,081,280  83%  191.41MB/s    0:00:44   43,522,326,528  83%  191.54MB/s    0:00:43   43,726,962,688  83%  193.02MB/s    0:00:42   43,934,384,128  84%  193.02MB/s    0:00:41   44,139,806,720  84%  195.11MB/s    0:00:39   44,347,523,072  85%  196.89MB/s    0:00:38   44,540,657,664  85%  194.15MB/s    0:00:38   44,725,010,432  85%  188.64MB/s    0:00:38   44,917,948,416  86%  185.66MB/s    0:00:37   45,124,255,744  86%  185.28MB/s    0:00:36   45,331,808,256  86%  188.72MB/s    0:00:35   45,537,329,152  87%  193.77MB/s    0:00:33   45,721,681,920  87%  191.72MB/s    0:00:32   45,911,212,032  88%  187.72MB/s    0:00:32   46,126,530,560  88%  189.57MB/s    0:00:30   46,326,644,736  88%  188.28MB/s    0:00:29   46,523,514,880  89%  191.27MB/s    0:00:28   46,692,990,976  89%  186.48MB/s    0:00:28   46,859,452,416  89%  174.83MB/s    0:00:29   47,077,490,688  90%  179.11MB/s    0:00:27   47,291,334,656  90%  183.15MB/s    0:00:25   47,495,020,544  91%  191.31MB/s    0:00:23   47,696,347,136  91%  199.63MB/s    0:00:21   47,906,062,336  91%  197.65MB/s    0:00:20   48,105,357,312  92%  194.18MB/s    0:00:20   48,318,218,240  92%  196.41MB/s    0:00:18   48,520,331,264  93%  196.60MB/s    0:00:17   48,726,638,592  93%  195.74MB/s    0:00:16   48,931,831,808  93%  197.15MB/s    0:00:15   49,141,612,544  94%  196.41MB/s    0:00:14   49,349,230,592  94%  197.72MB/s    0:00:13   49,553,145,856  95%  197.20MB/s    0:00:12   49,756,930,048  95%  196.87MB/s    0:00:11   49,942,724,608  95%  191.14MB/s    0:00:11   50,136,121,344  96%  187.75MB/s    0:00:10   50,342,494,208  96%  188.34MB/s    0:00:09   50,538,053,632  96%  186.33MB/s    0:00:08   50,729,058,304  97%  187.57MB/s    0:00:07   50,932,252,672  97%  189.91MB/s    0:00:06   51,128,926,208  98%  187.59MB/s    0:00:05   51,319,963,648  98%  186.56MB/s    0:00:04   51,517,358,080  98%  188.09MB/s    0:00:03   51,711,705,088  99%  185.98MB/s    0:00:02   51,914,047,488  99%  187.33MB/s    0:00:01   52,107,771,904  99%  187.97MB/s    0:00:00   52,109,993,462 100%  191.22MB/s    0:04:19 (xfr#5, to-chk=6/24)
+ref/
+ref/chm13v2.0.fa
+         32,768   0%    1.08MB/s    0:14:49      196,378,624  20%  187.28MB/s    0:00:04      408,846,336  41%  195.05MB/s    0:00:02      629,178,368  64%  200.14MB/s    0:00:01      826,900,480  84%  197.30MB/s    0:00:00      981,185,361 100%  196.79MB/s    0:00:04 (xfr#6, to-chk=5/24)
+ref/chm13v2.0.fa.amb
+             16 100%    0.02kB/s    0:00:00               16 100%    0.02kB/s    0:00:00 (xfr#7, to-chk=4/24)
+ref/chm13v2.0.fa.ann
+          2,062 100%    2.65kB/s    0:00:00            2,062 100%    2.65kB/s    0:00:00 (xfr#8, to-chk=3/24)
+ref/chm13v2.0.fa.bwt
+         32,768   0%   41.83kB/s   20:42:01       47,808,512   1%   45.59MB/s    0:01:05      266,108,928   8%  126.95MB/s    0:00:21      490,766,336  15%  156.11MB/s    0:00:16      699,957,248  22%  167.01MB/s    0:00:14      914,653,184  29%  206.83MB/s    0:00:10    1,122,533,376  36%  204.34MB/s    0:00:09    1,349,746,688  43%  204.95MB/s    0:00:08    1,568,440,320  50%  207.22MB/s    0:00:07    1,779,728,384  57%  206.40MB/s    0:00:06    1,982,365,696  63%  205.15MB/s    0:00:05    2,203,811,840  70%  203.78MB/s    0:00:04    2,405,531,648  77%  199.73MB/s    0:00:03    2,608,037,888  83%  197.63MB/s    0:00:02    2,813,952,000  90%  198.41MB/s    0:00:01    3,021,733,888  96%  195.15MB/s    0:00:00    3,117,292,156 100%  192.73MB/s    0:00:15 (xfr#9, to-chk=2/24)
+ref/chm13v2.0.fa.pac
+         32,768   0%   70.33kB/s    3:04:40      119,046,144  15%  113.53MB/s    0:00:05      324,435,968  41%  154.78MB/s    0:00:02      536,313,856  68%  170.60MB/s    0:00:01      748,453,888  96%  178.58MB/s    0:00:00      779,323,019 100%  179.18MB/s    0:00:04 (xfr#10, to-chk=1/24)
+ref/chm13v2.0.fa.sa
+         32,768   0%  209.15kB/s    2:04:12      185,630,720  11%  177.03MB/s    0:00:07      393,510,912  25%  187.64MB/s    0:00:06      589,135,872  37%  187.34MB/s    0:00:05      798,326,784  51%  190.43MB/s    0:00:03    1,004,830,720  64%  195.41MB/s    0:00:02    1,215,922,176  78%  196.18MB/s    0:00:01    1,441,300,480  92%  203.27MB/s    0:00:00    1,558,646,088 100%  196.80MB/s    0:00:07 (xfr#11, to-chk=0/24)
+
+sent 97,809,615,710 bytes  received 288 bytes  201,047,514.90 bytes/sec
+total size is 97,785,741,024  speedup is 1.00
+Calculating short read length
+Running telseq
+Telseq start time: 1734459185
+Start analysing BAM /home/jake/tmp/comparative_study_temp/HG00514/input/ERR3988781.sorted.bam
+Warning: can't find RG tag in the BAM header
+Warning: treat all reads in BAM as if they were from a same sample
+[scan] processed 10000000 reads 
+[scan] processed 20000000 reads 
+[scan] processed 30000000 reads 
+[scan] processed 40000000 reads 
+[scan] processed 50000000 reads 
+[scan] processed 60000000 reads 
+[scan] processed 70000000 reads 
+[scan] processed 80000000 reads 
+[scan] processed 90000000 reads 
+[scan] processed 100000000 reads 
+[scan] processed 110000000 reads 
+[scan] processed 120000000 reads 
+[scan] processed 130000000 reads 
+[scan] processed 140000000 reads 
+[scan] processed 150000000 reads 
+[scan] processed 160000000 reads 
+[scan] processed 170000000 reads 
+[scan] processed 180000000 reads 
+[scan] processed 190000000 reads 
+[scan] processed 200000000 reads 
+[scan] processed 210000000 reads 
+[scan] processed 220000000 reads 
+[scan] processed 230000000 reads 
+[scan] processed 240000000 reads 
+[scan] processed 250000000 reads 
+[scan] processed 260000000 reads 
+[scan] processed 270000000 reads 
+[scan] processed 280000000 reads 
+[scan] processed 290000000 reads 
+[scan] processed 300000000 reads 
+[scan] processed 310000000 reads 
+[scan] processed 320000000 reads 
+[scan] processed 330000000 reads 
+[scan] processed 340000000 reads 
+[scan] processed 350000000 reads 
+[scan] processed 360000000 reads 
+[scan] processed 370000000 reads 
+[scan] processed 380000000 reads 
+[scan] processed 390000000 reads 
+[scan] processed 400000000 reads 
+[scan] processed 410000000 reads 
+[scan] processed 420000000 reads 
+[scan] processed 430000000 reads 
+[scan] processed 440000000 reads 
+[scan] processed 450000000 reads 
+[scan] processed 460000000 reads 
+[scan] processed 470000000 reads 
+[scan] processed 480000000 reads 
+[scan] processed 490000000 reads 
+[scan] processed 500000000 reads 
+[scan] processed 510000000 reads 
+[scan] processed 520000000 reads 
+[scan] processed 530000000 reads 
+[scan] processed 540000000 reads 
+[scan] processed 550000000 reads 
+[scan] processed 560000000 reads 
+[scan] processed 570000000 reads 
+[scan] processed 580000000 reads 
+[scan] processed 590000000 reads 
+[scan] processed 600000000 reads 
+[scan] processed 610000000 reads 
+[scan] processed 620000000 reads 
+[scan] processed 630000000 reads 
+[scan] processed 640000000 reads 
+[scan] processed 650000000 reads 
+[scan] processed 660000000 reads 
+[scan] processed 670000000 reads 
+[scan] processed 680000000 reads 
+[scan] processed 690000000 reads 
+[scan] processed 700000000 reads 
+[scan] processed 710000000 reads 
+[scan] processed 720000000 reads 
+[scan] processed 730000000 reads 
+[scan] processed 740000000 reads 
+[scan] processed 750000000 reads 
+[scan] total reads in BAM scanned 755557775
+Completed scanning BAM
+Completed writing results
+[timer - scan BAM] wall clock: 12105.61s CPU: 12102.36s
+Telseq end time: 1734471290
+Telseq time taken: 12105
+Running telomerehunter
+Telomerehunter start time: 1734471293
+./compare.sh: line 153: /home/jake/miniconda3/envs/telomerehunter/bin/telomerehunter: cannot execute: required file not found
+Telomerehunter end time: 1734471293
+Telomerehunter time taken: 0
+Running telogator
+Telogator start time: 1734471296
+Warning: no aligner was specified, trying "minimap2"...
+using user-specified subtel reference: telogator-ref.fa.gz
+using default telomere kmers
+getting reads with at least 8 matches to CCCTAACCCTAA... (399 sec)
+ - 1530335 --> 203 reads
+ - (25992945599 bp) --> (3422977 bp)
+filtering by read length (>4000bp)... (0 sec)
+ - 203 --> 203 reads
+getting telomere repeat composition... (27 sec)
+ - 203 --> 85 reads
+ - (110 reads removed for ending in < 500bp tel sequence)
+ - (8 reads removed for ending in > 200bp non-tel sequence)
+ - (0 reads removed for ending in < 1000bp subtel sequence)
+initial clustering of all reads... (6 sec)
+ - 15 clusters (55 reads)
+ - (>= 3 reads per cluster)
+removing interstitial telomeres... (0 sec)
+ - 0 clusters removed for not ending in enough tel sequence
+ - (30 tel reads unclustered)
+refining clusters [TVR]... (132 sec)
+ - 7 clusters with tvrs (21 reads)
+ - 0 clusters removed for not ending in enough tel sequence
+ - (32 tel reads with blank tvr)
+skipping subtel cluster refinement...
+checking for duplicate alleles... (0 sec)
+ - no duplicates found
+final reclustering to get TVRs and TLs for each allele... (103 sec)
+ - 7 unique alleles
+ - (0 clusters removed during tvr reanalysis)
+ - (0 clusters added during tvr reanalysis)
+aligning subtels to reference... (45 sec)
+getting anchors from alignment... (0 sec)
+writing allele TL results to "tlens_by_allele.tsv"...
+ - 7 final telomere alleles
+ - 0 (unmapped)
+ - 0 (atl < 100 bp)
+ - 0 (interstitial)
+Telogator end time: 1734472027
+Telogator time taken: 731
+Running tecat
+TECAT start time: 1734472027
+
+Attaching package: ‘TECAT’
+
+The following object is masked from ‘package:purrr’:
+
+    map
+
+
+Starting TECAT pipeline at:  1734472034 
+
+Starting to determine telomere read lengths at: 2024-12-17 14:47:14.072627
+
+Options:
+Threads: 18
+Output: ../results/HG00514/tecat
+Temporary: /tmp/RtmpoqdREh
+Sample_name: HG00514
+Meme bin: ~/meme/bin
+Input: /home/jake/tmp/comparative_study_temp/HG00514/input/lr/ERR4982327.fastq
+Reference: /home/jake/tmp/comparative_study_temp/HG00514/input/ref/chm13v2.0.fa
+Length: 6
+Number: 10
+Start: Auto
+End: Auto
+Platform: ont
+Downsample ratio: 0.15
+Results: ../results/HG00514/tecat/tecat_results.csv
+
+
+Splitting fastq file at: 2024-12-17 14:47:14.074128
+
+Determining number of files to split into
+
+Splitting fastq file into 27 files
+
+This is the command for system call: 
+	 seqkit split2 /home/jake/tmp/comparative_study_temp/HG00514/input/lr/ERR4982327.fastq -s 56680 --threads 18 --by-size-prefix split_ --compress-level -1 --out-dir /tmp/RtmpoqdREh/split --extension .gz 
+
+[INFO][0m split seqs from /home/jake/tmp/comparative_study_temp/HG00514/input/lr/ERR4982327.fastq
+[INFO][0m split into 56680 seqs per file
+[INFO][0m write 56680 sequences to file: /tmp/RtmpoqdREh/split/split_001.fastq.gz
+[INFO][0m write 56680 sequences to file: /tmp/RtmpoqdREh/split/split_002.fastq.gz
+[INFO][0m write 56680 sequences to file: /tmp/RtmpoqdREh/split/split_003.fastq.gz
+[INFO][0m write 56680 sequences to file: /tmp/RtmpoqdREh/split/split_004.fastq.gz
+[INFO][0m write 56680 sequences to file: /tmp/RtmpoqdREh/split/split_005.fastq.gz
+[INFO][0m write 56680 sequences to file: /tmp/RtmpoqdREh/split/split_006.fastq.gz
+[INFO][0m write 56680 sequences to file: /tmp/RtmpoqdREh/split/split_007.fastq.gz
+[INFO][0m write 56680 sequences to file: /tmp/RtmpoqdREh/split/split_008.fastq.gz
+[INFO][0m write 56680 sequences to file: /tmp/RtmpoqdREh/split/split_009.fastq.gz
+[INFO][0m write 56680 sequences to file: /tmp/RtmpoqdREh/split/split_010.fastq.gz
+[INFO][0m write 56680 sequences to file: /tmp/RtmpoqdREh/split/split_011.fastq.gz
+[INFO][0m write 56680 sequences to file: /tmp/RtmpoqdREh/split/split_012.fastq.gz
+[INFO][0m write 56680 sequences to file: /tmp/RtmpoqdREh/split/split_013.fastq.gz
+[INFO][0m write 56680 sequences to file: /tmp/RtmpoqdREh/split/split_014.fastq.gz
+[INFO][0m write 56680 sequences to file: /tmp/RtmpoqdREh/split/split_015.fastq.gz
+[INFO][0m write 56680 sequences to file: /tmp/RtmpoqdREh/split/split_016.fastq.gz
+[INFO][0m write 56680 sequences to file: /tmp/RtmpoqdREh/split/split_017.fastq.gz
+[INFO][0m write 56680 sequences to file: /tmp/RtmpoqdREh/split/split_018.fastq.gz
+[INFO][0m write 56680 sequences to file: /tmp/RtmpoqdREh/split/split_019.fastq.gz
+[INFO][0m write 56680 sequences to file: /tmp/RtmpoqdREh/split/split_020.fastq.gz
+[INFO][0m write 56680 sequences to file: /tmp/RtmpoqdREh/split/split_021.fastq.gz
+[INFO][0m write 56680 sequences to file: /tmp/RtmpoqdREh/split/split_022.fastq.gz
+[INFO][0m write 56680 sequences to file: /tmp/RtmpoqdREh/split/split_023.fastq.gz
+[INFO][0m write 56680 sequences to file: /tmp/RtmpoqdREh/split/split_024.fastq.gz
+[INFO][0m write 56680 sequences to file: /tmp/RtmpoqdREh/split/split_025.fastq.gz
+[INFO][0m write 56680 sequences to file: /tmp/RtmpoqdREh/split/split_026.fastq.gz
+[INFO][0m write 56655 sequences to file: /tmp/RtmpoqdREh/split/split_027.fastq.gz
+
+Processing reference file at: 2024-12-17 14:50:56.818426
+
+Successfully loaded DNAStringSet reference.
+
+
+Reference data is not empty.
+
+
+Running MEME analysis with 18 threads.
+
+
+Motifs identified: 
+	CCCTAA
+	GGGTNRGGGT
+	GGGYTMGGG
+	AACCCCA
+	CCCTGG
+
+Motif information:
+
+Number of motifs:  25 
+
+Grep list:  
+$original1
+[1] "CCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAA"
+
+$original2
+[1] "GGGTNRGGGTGGGTNRGGGTGGGTNRGGGTGGGTNRGGGTGGGTNRGGGTGGGTNRGGGT"
+
+$original3
+[1] "GGGYTMGGGGGGYTMGGGGGGYTMGGGGGGYTMGGGGGGYTMGGGGGGYTMGGGGGGYTMGGG"
+
+$original4
+[1] "AACCCCAAACCCCAAACCCCAAACCCCAAACCCCAAACCCCAAACCCCAAACCCCAAACCCCA"
+
+$original5
+[1] "CCCTGGCCCTGGCCCTGGCCCTGGCCCTGGCCCTGGCCCTGGCCCTGGCCCTGGCCCTGG"
+
+$complement1
+[1] "GGGATTGGGATTGGGATTGGGATTGGGATTGGGATTGGGATTGGGATTGGGATTGGGATT"
+
+$complement2
+[1] "CCCANYCCCACCCANYCCCACCCANYCCCACCCANYCCCACCCANYCCCACCCANYCCCA"
+
+$complement3
+[1] "CCCRAKCCCCCCRAKCCCCCCRAKCCCCCCRAKCCCCCCRAKCCCCCCRAKCCCCCCRAKCCC"
+
+$complement4
+[1] "TTGGGGTTTGGGGTTTGGGGTTTGGGGTTTGGGGTTTGGGGTTTGGGGTTTGGGGTTTGGGGT"
+
+$complement5
+[1] "GGGACCGGGACCGGGACCGGGACCGGGACCGGGACCGGGACCGGGACCGGGACCGGGACC"
+
+$reverse1
+[1] "AATCCCAATCCCAATCCCAATCCCAATCCCAATCCCAATCCCAATCCCAATCCCAATCCC"
+
+$reverse2
+[1] "TGGGRNTGGGTGGGRNTGGGTGGGRNTGGGTGGGRNTGGGTGGGRNTGGGTGGGRNTGGG"
+
+$reverse3
+[1] "GGGMTYGGGGGGMTYGGGGGGMTYGGGGGGMTYGGGGGGMTYGGGGGGMTYGGGGGGMTYGGG"
+
+$reverse4
+[1] "ACCCCAAACCCCAAACCCCAAACCCCAAACCCCAAACCCCAAACCCCAAACCCCAAACCCCAA"
+
+$reverse5
+[1] "GGTCCCGGTCCCGGTCCCGGTCCCGGTCCCGGTCCCGGTCCCGGTCCCGGTCCCGGTCCC"
+
+$reverse_complement1
+[1] "TTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGG"
+
+$reverse_complement2
+[1] "ACCCYNACCCACCCYNACCCACCCYNACCCACCCYNACCCACCCYNACCCACCCYNACCC"
+
+$reverse_complement3
+[1] "CCCKARCCCCCCKARCCCCCCKARCCCCCCKARCCCCCCKARCCCCCCKARCCCCCCKARCCC"
+
+$reverse_complement4
+[1] "TGGGGTTTGGGGTTTGGGGTTTGGGGTTTGGGGTTTGGGGTTTGGGGTTTGGGGTTTGGGGTT"
+
+$reverse_complement5
+[1] "CCAGGGCCAGGGCCAGGGCCAGGGCCAGGGCCAGGGCCAGGGCCAGGGCCAGGGCCAGGG"
+
+$rev_reverse_complement1
+[1] "AATCCCAATCCCAATCCCAATCCCAATCCCAATCCCAATCCCAATCCCAATCCCAATCCC"
+
+$rev_reverse_complement2
+[1] "TGGGRNTGGGTGGGRNTGGGTGGGRNTGGGTGGGRNTGGGTGGGRNTGGGTGGGRNTGGG"
+
+$rev_reverse_complement3
+[1] "GGGMTYGGGGGGMTYGGGGGGMTYGGGGGGMTYGGGGGGMTYGGGGGGMTYGGGGGGMTYGGG"
+
+$rev_reverse_complement4
+[1] "ACCCCAAACCCCAAACCCCAAACCCCAAACCCCAAACCCCAAACCCCAAACCCCAAACCCCAA"
+
+$rev_reverse_complement5
+[1] "GGTCCCGGTCCCGGTCCCGGTCCCGGTCCCGGTCCCGGTCCCGGTCCCGGTCCCGGTCCC"
+
+
+Pattern searching at: 2024-12-17 14:54:57.692408
+Searching for telomeres in 27 files
+Using 18 threads
+
+  |                                                              |   0%, ETA NAProcessing: /tmp/RtmpoqdREh/split/split_001.fastq.gz
+
+Processing: /tmp/RtmpoqdREh/split/split_002.fastq.gz
+
+Processing: /tmp/RtmpoqdREh/split/split_003.fastq.gz
+
+Processing: /tmp/RtmpoqdREh/split/split_004.fastq.gz
+
+Processing: /tmp/RtmpoqdREh/split/split_005.fastq.gz
+
+Processing: /tmp/RtmpoqdREh/split/split_006.fastq.gz
+
+Processing: /tmp/RtmpoqdREh/split/split_007.fastq.gz
+
+Processing: /tmp/RtmpoqdREh/split/split_008.fastq.gz
+
+Processing: /tmp/RtmpoqdREh/split/split_009.fastq.gz
+
+Processing: /tmp/RtmpoqdREh/split/split_010.fastq.gz
+
+Processing: /tmp/RtmpoqdREh/split/split_011.fastq.gz
+
+Processing: /tmp/RtmpoqdREh/split/split_012.fastq.gz
+
+Processing: /tmp/RtmpoqdREh/split/split_013.fastq.gz
+
+Processing: /tmp/RtmpoqdREh/split/split_014.fastq.gz
+
+Processing: /tmp/RtmpoqdREh/split/split_015.fastq.gz
+
+Processing: /tmp/RtmpoqdREh/split/split_016.fastq.gz
+
+Processing: /tmp/RtmpoqdREh/split/split_017.fastq.gz
+
+Processing: /tmp/RtmpoqdREh/split/split_018.fastq.gz
+
+Processing: /tmp/RtmpoqdREh/split/split_026.fastq.gz
+
+  |==                                                      |   4%, ETA 02:22:50Processing: /tmp/RtmpoqdREh/split/split_019.fastq.gz
+
+  |====                                                    |   7%, ETA 01:10:05  |=======                                                    |  11%, ETA 45:02  |=========                                                  |  15%, ETA 32:24Processing: /tmp/RtmpoqdREh/split/split_020.fastq.gz
+
+  |===========                                                |  19%, ETA 24:55Processing: /tmp/RtmpoqdREh/split/split_024.fastq.gz
+
+  |=============                                              |  22%, ETA 19:55  |===============                                            |  26%, ETA 16:16Processing: /tmp/RtmpoqdREh/split/split_021.fastq.gz
+
+Processing: /tmp/RtmpoqdREh/split/split_023.fastq.gz
+
+  |=================                                          |  30%, ETA 13:34  |====================                                       |  33%, ETA 11:26  |======================                                     |  37%, ETA 09:45  |========================                                   |  41%, ETA 08:21Processing: /tmp/RtmpoqdREh/split/split_022.fastq.gz
+
+  |==========================                                 |  44%, ETA 07:10  |============================                               |  48%, ETA 06:11  |===============================                            |  52%, ETA 05:21Processing: /tmp/RtmpoqdREh/split/split_025.fastq.gz
+
+  |=================================                          |  56%, ETA 04:38  |===================================                        |  59%, ETA 04:00Processing: /tmp/RtmpoqdREh/split/split_027.fastq.gz
+
+  |=====================================                      |  63%, ETA 03:27  |=======================================                    |  67%, ETA 02:56  |==========================================                 |  70%, ETA 03:59  |============================================               |  74%, ETA 03:19  |==============================================             |  78%, ETA 02:44  |================================================           |  81%, ETA 02:11  |==================================================         |  85%, ETA 01:42  |====================================================       |  89%, ETA 01:13  |=======================================================    |  93%, ETA 00:48  |=========================================================  |  96%, ETA 00:24  |=======================================================| 100%, Elapsed 10:34
+
+Writing files to: /tmp/RtmpoqdREh/telo
+
+
+| mean_telomere_read_length| total_telomere_length| telomere_count| telomere_percent_of_reads| telomere_percent_of_bases|file_name |
+|-------------------------:|---------------------:|--------------:|-------------------------:|-------------------------:|:---------|
+|                  16451.40|                 82257|              5|                 0.0088215|                 0.0085528|split_001 |
+|                  17405.00|                 34810|              2|                 0.0035286|                 0.0036234|split_002 |
+|                  16354.80|                 81774|              5|                 0.0088215|                 0.0085140|split_003 |
+|                  16879.75|                 67519|              4|                 0.0070572|                 0.0070351|split_004 |
+|                  15750.50|                 31501|              2|                 0.0035286|                 0.0032811|split_005 |
+|                  16183.00|                 32366|              2|                 0.0035286|                 0.0033645|split_006 |
+
+Number of telomeres:  88 
+
+Cutting into sliding windows at: 2024-12-17 15:05:32.950614
+
+Determining environment at: 2024-12-17 15:05:32.950957
+  |                                                              |   0%, ETA NA  |=                                                          |   1%, ETA 02:39  |=                                                          |   2%, ETA 01:31  |==                                                         |   3%, ETA 01:03  |===                                                        |   5%, ETA 00:52  |===                                                        |   6%, ETA 00:42  |====                                                       |   7%, ETA 00:37  |=====                                                      |   8%, ETA 00:33  |=====                                                      |   9%, ETA 00:31  |======                                                     |  10%, ETA 00:27  |=======                                                    |  11%, ETA 00:25  |=======                                                    |  12%, ETA 00:25  |========                                                   |  14%, ETA 00:23  |=========                                                  |  15%, ETA 00:21  |=========                                                  |  16%, ETA 00:20  |==========                                                 |  17%, ETA 00:18  |===========                                                |  18%, ETA 00:18  |===========                                                |  19%, ETA 00:17  |============                                               |  20%, ETA 00:16  |=============                                              |  22%, ETA 00:15  |=============                                              |  23%, ETA 00:15  |==============                                             |  24%, ETA 00:14  |===============                                            |  25%, ETA 00:14  |===============                                            |  26%, ETA 00:13  |================                                           |  27%, ETA 00:13  |=================                                          |  28%, ETA 00:12  |=================                                          |  30%, ETA 00:12  |==================                                         |  31%, ETA 00:11  |===================                                        |  32%, ETA 00:11  |===================                                        |  33%, ETA 00:10  |====================                                       |  34%, ETA 00:10  |=====================                                      |  35%, ETA 00:10  |=====================                                      |  36%, ETA 00:10  |======================                                     |  38%, ETA 00:09  |=======================                                    |  39%, ETA 00:09  |=======================                                    |  40%, ETA 00:09  |========================                                   |  41%, ETA 00:08  |=========================                                  |  42%, ETA 00:08  |=========================                                  |  43%, ETA 00:08  |==========================                                 |  44%, ETA 00:08  |===========================                                |  45%, ETA 00:07  |===========================                                |  47%, ETA 00:07  |============================                               |  48%, ETA 00:07  |=============================                              |  49%, ETA 00:07  |==============================                             |  50%, ETA 00:06  |==============================                             |  51%, ETA 00:06  |===============================                            |  52%, ETA 00:06  |================================                           |  53%, ETA 00:06  |================================                           |  55%, ETA 00:06  |=================================                          |  56%, ETA 00:06  |==================================                         |  58%, ETA 00:05  |===================================                        |  59%, ETA 00:05  |====================================                       |  60%, ETA 00:05  |====================================                       |  61%, ETA 00:04  |=====================================                      |  62%, ETA 00:04  |======================================                     |  64%, ETA 00:04  |======================================                     |  65%, ETA 00:04  |=======================================                    |  66%, ETA 00:04  |========================================                   |  67%, ETA 00:04  |========================================                   |  68%, ETA 00:04  |=========================================                  |  69%, ETA 00:03  |==========================================                 |  70%, ETA 00:03  |==========================================                 |  72%, ETA 00:03  |===========================================                |  73%, ETA 00:03  |============================================               |  74%, ETA 00:03  |============================================               |  75%, ETA 00:03  |=============================================              |  76%, ETA 00:03  |==============================================             |  77%, ETA 00:02  |==============================================             |  78%, ETA 00:02  |===============================================            |  80%, ETA 00:02  |================================================           |  81%, ETA 00:02  |================================================           |  82%, ETA 00:02  |=================================================          |  83%, ETA 00:02  |==================================================         |  84%, ETA 00:02  |==================================================         |  85%, ETA 00:02  |===================================================        |  86%, ETA 00:01  |====================================================       |  88%, ETA 00:01  |====================================================       |  89%, ETA 00:01  |=====================================================      |  90%, ETA 00:01  |======================================================     |  91%, ETA 00:01  |======================================================     |  92%, ETA 00:01  |=======================================================    |  93%, ETA 00:01  |========================================================   |  94%, ETA 00:01  |========================================================   |  95%, ETA 00:00  |=========================================================  |  97%, ETA 00:00  |========================================================== |  98%, ETA 00:00  |========================================================== |  99%, ETA 00:00  |=======================================================| 100%, Elapsed 00:10
+
+Calculating frequencies at: 2024-12-17 15:05:49.744512
+  |                                                              |   0%, ETA NA  |=                                                          |   1%, ETA 32:07  |=                                                          |   2%, ETA 16:13  |==                                                         |   3%, ETA 11:11  |===                                                        |   5%, ETA 08:21  |===                                                        |   6%, ETA 06:45  |====                                                       |   7%, ETA 05:39  |=====                                                      |   8%, ETA 04:48  |=====                                                      |   9%, ETA 04:09  |======                                                     |  10%, ETA 03:40  |=======                                                    |  11%, ETA 03:16  |=======                                                    |  12%, ETA 02:57  |========                                                   |  14%, ETA 02:42  |=========                                                  |  15%, ETA 02:30  |=========                                                  |  16%, ETA 02:19  |==========                                                 |  17%, ETA 02:13  |===========                                                |  18%, ETA 02:04  |===========                                                |  19%, ETA 01:55  |============                                               |  20%, ETA 01:51  |=============                                              |  22%, ETA 02:28  |=============                                              |  23%, ETA 02:33  |==============                                             |  24%, ETA 02:26  |===============                                            |  25%, ETA 02:19  |===============                                            |  26%, ETA 02:14  |================                                           |  27%, ETA 02:06  |=================                                          |  28%, ETA 01:59  |=================                                          |  30%, ETA 01:54  |==================                                         |  31%, ETA 01:49  |===================                                        |  32%, ETA 01:44  |===================                                        |  33%, ETA 01:39  |====================                                       |  34%, ETA 01:35  |=====================                                      |  35%, ETA 01:31  |======================                                     |  38%, ETA 01:23  |=======================                                    |  39%, ETA 01:20  |=======================                                    |  40%, ETA 01:17  |========================                                   |  41%, ETA 01:14  |=========================                                  |  42%, ETA 01:25  |=========================                                  |  43%, ETA 01:24  |==========================                                 |  44%, ETA 01:27  |===========================                                |  45%, ETA 01:24  |===========================                                |  47%, ETA 01:21  |============================                               |  48%, ETA 01:17  |=============================                              |  49%, ETA 01:14  |==============================                             |  50%, ETA 01:11  |==============================                             |  51%, ETA 01:08  |===============================                            |  52%, ETA 01:06  |================================                           |  53%, ETA 01:03  |================================                           |  55%, ETA 01:01  |=================================                          |  56%, ETA 00:58  |==================================                         |  57%, ETA 00:56  |==================================                         |  58%, ETA 00:54  |===================================                        |  59%, ETA 00:51  |====================================                       |  60%, ETA 00:49  |====================================                       |  61%, ETA 00:49  |=====================================                      |  62%, ETA 00:53  |======================================                     |  64%, ETA 00:52  |======================================                     |  65%, ETA 00:50  |=======================================                    |  66%, ETA 00:48  |========================================                   |  67%, ETA 00:46  |========================================                   |  68%, ETA 00:44  |=========================================                  |  69%, ETA 00:42  |==========================================                 |  70%, ETA 00:40  |==========================================                 |  72%, ETA 00:38  |===========================================                |  73%, ETA 00:36  |============================================               |  74%, ETA 00:34  |============================================               |  75%, ETA 00:32  |=============================================              |  76%, ETA 00:30  |==============================================             |  77%, ETA 00:29  |==============================================             |  78%, ETA 00:27  |===============================================            |  80%, ETA 00:26  |================================================           |  81%, ETA 00:24  |================================================           |  82%, ETA 00:23  |=================================================          |  83%, ETA 00:23  |==================================================         |  84%, ETA 00:21  |==================================================         |  85%, ETA 00:20  |===================================================        |  86%, ETA 00:18  |====================================================       |  88%, ETA 00:16  |====================================================       |  89%, ETA 00:15  |=====================================================      |  90%, ETA 00:13  |======================================================     |  91%, ETA 00:12  |======================================================     |  92%, ETA 00:10  |=======================================================    |  93%, ETA 00:09  |========================================================   |  94%, ETA 00:07  |========================================================   |  95%, ETA 00:06  |=========================================================  |  97%, ETA 00:04  |========================================================== |  98%, ETA 00:03  |========================================================== |  99%, ETA 00:01  |=======================================================| 100%, Elapsed 02:01
+	Saving files to ../results/HG00514/tecat/frequencies
+
+
+| start| end| window_length| telomere_count| motif_frequency|hit_motif  |  NA|sequence_name        |
+|-----:|---:|-------------:|--------------:|---------------:|:----------|---:|:--------------------|
+|     1| 200|           200|             18|              90|CCCANYCCCA |   1|split_001_telomere_1 |
+|   101| 300|           200|             13|              65|CCCANYCCCA | 101|split_001_telomere_1 |
+|   201| 400|           200|              9|              45|CCCANYCCCA | 201|split_001_telomere_1 |
+|   301| 500|           200|             12|              60|ACCCYNACCC | 301|split_001_telomere_1 |
+|   401| 600|           200|             14|              70|ACCCYNACCC | 401|split_001_telomere_1 |
+|   501| 700|           200|             15|              75|ACCCYNACCC | 501|split_001_telomere_1 |
+
+Determining thresholds at: 2024-12-17 15:07:51.938858
+
+Determining thresholds for full 
+
+           data set based off of downsampled data, 
+
+           and start threshold of 50.
+
+Determining thresholds for full 
+
+            data set based off of downsampled data, 
+
+            and start threshold of 50.
+
+Determining telomere length at: 2024-12-17 15:08:13.626456
+
+
+|                     | telomere_length| read_length| trunc_start| trunc_end|telomere_end |
+|:--------------------|---------------:|-----------:|-----------:|---------:|:------------|
+|split_001_telomere_1 |            7911|       17173|        7912|     17173|L            |
+|split_001_telomere_2 |            6031|       17734|        6032|     17734|L            |
+|split_001_telomere_3 |            6401|       14457|        6402|     14457|L            |
+|split_001_telomere_4 |             407|       14628|         408|     14628|L            |
+|split_001_telomere_5 |            6265|       18265|           1|     12000|R            |
+|split_002_telomere_1 |            2157|       17751|           1|     15594|R            |
+
+Number of NAs:  12 
+
+Truncating and mapping reads at: 2024-12-17 15:08:14.177407
+
+Writing files to: ../results/HG00514/tecat/truncated
+Generating output file: ../results/HG00514/tecat/mapped/mapped
+Running minimap2...
+Running minimap with the following command:
+
+/home/jake/software/minimap2/minimap2 -ax map-ont -t 18 /home/jake/tmp/comparative_study_temp/HG00514/input/ref/chm13v2.0.fa ../results/HG00514/tecat/truncated/truncated_reads.fa -o ../results/HG00514/tecat/mapped/mapped.sam --secondary=no
+[M::mm_idx_gen::113.964*1.75] collected minimizers
+[M::mm_idx_gen::121.716*2.73] sorted minimizers
+[M::main::121.716*2.73] loaded/built the index for 25 target sequence(s)
+[M::mm_mapopt_update::125.477*2.67] mid_occ = 892
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 25
+[M::mm_idx_stat::127.657*2.65] distinct minimizers: 100277218 (38.70% are singletons); average occurrences: 5.856; average spacing: 5.308; total length: 3117292070
+[M::worker_pipeline::145.723*2.63] mapped 76 sequences
+[M::main] Version: 2.28-r1221-dirty
+[M::main] CMD: /home/jake/software/minimap2/minimap2 -ax map-ont -t 18 -o ../results/HG00514/tecat/mapped/mapped.sam --secondary=no /home/jake/tmp/comparative_study_temp/HG00514/input/ref/chm13v2.0.fa ../results/HG00514/tecat/truncated/truncated_reads.fa
+[M::main] Real time: 146.008 sec; CPU: 384.168 sec; Peak RSS: 11.872 GB
+
+
+|telo_name            |ref_name |strand |     start|       end| qwidth| score| telomere_length| read_length| trunc_start| trunc_end|telomere_end |chromEnd |sample  |
+|:--------------------|:--------|:------|---------:|---------:|------:|-----:|---------------:|-----------:|-----------:|---------:|:------------|:--------|:-------|
+|split_001_telomere_4 |chr1     |+      |      2909|     17129|  14221|    34|             407|       14628|         408|     14628|L            |5'       |HG00514 |
+|split_015_telomere_3 |chr1     |-      |      2909|     18908|  16000|    38|            1106|       17106|           1|     16000|R            |5'       |HG00514 |
+|split_004_telomere_3 |chr1     |-      | 248369151| 248384309|  15159|    60|            1346|       16505|        1347|     16505|L            |3'       |HG00514 |
+|split_012_telomere_1 |chr1     |-      | 248376268| 248384258|   7991|    60|            8501|       16492|        8502|     16492|L            |3'       |HG00514 |
+|split_020_telomere_2 |chr2     |-      |      3622|     22015|  18394|    60|            1870|       20264|           1|     18394|R            |5'       |HG00514 |
+|split_015_telomere_1 |chr3     |+      |      2855|     14280|  11426|    60|            3601|       15027|        3602|     15027|L            |5'       |HG00514 |
+
+Plotting telomere lengths at: 2024-12-17 15:12:05.369023
+Warning messages:
+1: Cannot compute density for groups with fewer than two datapoints. 
+2: Cannot compute density for groups with fewer than two datapoints. 
+
+TECAT pipeline completed at:  1734473529 
+
+Total time:  24.90951 
+TECAT end time: 1734473529
+TECAT time taken: 1502
+Telseq time taken: 12105
+Telomerehunter time taken: 0
+Telogator time taken: 731
+TECAT time taken: 1502
+Output directory: ../results/HG00514
+End time: Tue Dec 17 03:12:09 PM MST 2024
+JOBS DONE... :)

@@ -1,0 +1,10 @@
+[M::mm_idx_gen::6.045*1.60] collected minimizers
+[M::mm_idx_gen::7.989*1.94] sorted minimizers
+[M::main::7.989*1.94] loaded/built the index for 508 target sequence(s)
+[M::mm_mapopt_update::8.066*1.93] mid_occ = 1557
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 508
+[M::mm_idx_stat::8.113*1.93] distinct minimizers: 3262377 (9.40% are singletons); average occurrences: 14.502; average spacing: 5.369; total length: 254000000
+[M::worker_pipeline::1293.635*2.82] mapped 422 sequences
+[M::main] Version: 2.28-r1209
+[M::main] CMD: minimap2 -ax map-ont -Y -o ../results//HG02492/telogator/temp/subtel_aln.sam /home/jake/science_projects/telo/other_tools/telogator2//resources/telogator-ref.fa.gz ../results//HG02492/telogator/temp/unanchored_subtels.fa.gz
+[M::main] Real time: 1293.708 sec; CPU: 3654.070 sec; Peak RSS: 4.884 GB

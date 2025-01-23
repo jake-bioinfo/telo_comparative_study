@@ -1,0 +1,4 @@
+ - 91 final telomere alleles
+ - 0 (unmapped)
+ - 0 (atl < 100 bp)
+ - 3 (interstitial)

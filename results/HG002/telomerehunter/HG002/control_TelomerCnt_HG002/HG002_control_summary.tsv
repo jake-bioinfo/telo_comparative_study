@@ -1,0 +1,2 @@
+PID	sample	total_reads	read_length	repeat_threshold_set	repeat_threshold_used	tel_reads	intratel_reads	gc_bins_for_correction	total_reads_with_tel_gc	tel_content
+HG002	control	711582514	151	6 per 100 bp	9	42888	42888	48-52	94138903	455.582109

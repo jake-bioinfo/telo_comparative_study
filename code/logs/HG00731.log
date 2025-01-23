@@ -1,0 +1,613 @@
+
+temp_directory: /home/jake/tmp/comparative_study_temp/
+output_directory: ../results/
+input_dir: /media/jake/HG00731
+sample: HG00731
+threads: 18
+platform: ont
+
+sending incremental file list
+./
+SRR5534404-5.sorted.bam
+184,166,745,707 100%  238.24MB/s    0:12:17 (xfr#1, to-chk=10/12)
+SRR5534404-5.sorted.bam.bai
+      9,403,304 100%   20.57MB/s    0:00:00 (xfr#2, to-chk=9/12)
+lr/
+lr/ERR11586165.fastq
+ 99,214,248,560 100%  252.13MB/s    0:06:15 (xfr#3, to-chk=6/12)
+ref/
+ref/chm13.draft_v1.1.fasta
+  3,105,746,077 100%  226.32MB/s    0:00:13 (xfr#4, to-chk=5/12)
+ref/chm13.draft_v1.1.fasta.amb
+             16 100%    0.18kB/s    0:00:00 (xfr#5, to-chk=4/12)
+ref/chm13.draft_v1.1.fasta.ann
+            893 100%   10.02kB/s    0:00:00 (xfr#6, to-chk=3/12)
+ref/chm13.draft_v1.1.fasta.bwt
+  3,054,832,128 100%  220.06MB/s    0:00:13 (xfr#7, to-chk=2/12)
+ref/chm13.draft_v1.1.fasta.pac
+    763,708,012 100%  216.76MB/s    0:00:03 (xfr#8, to-chk=1/12)
+ref/chm13.draft_v1.1.fasta.sa
+  1,527,416,072 100%  218.82MB/s    0:00:06 (xfr#9, to-chk=0/12)
+
+sent 291,913,351,993 bytes  received 210 bytes  254,390,720.87 bytes/sec
+total size is 291,842,100,769  speedup is 1.00
+Calculating short read length
+Running telseq
+Telseq start time: 1727306363
+Start analysing BAM /home/jake/tmp/comparative_study_temp//HG00731/input/SRR5534404-5.sorted.bam
+Warning: can't find RG tag in the BAM header
+Warning: treat all reads in BAM as if they were from a same sample
+[scan] processed 10000000 reads 
+[scan] processed 20000000 reads 
+[scan] processed 30000000 reads 
+[scan] processed 40000000 reads 
+[scan] processed 50000000 reads 
+[scan] processed 60000000 reads 
+[scan] processed 70000000 reads 
+[scan] processed 80000000 reads 
+[scan] processed 90000000 reads 
+[scan] processed 100000000 reads 
+[scan] processed 110000000 reads 
+[scan] processed 120000000 reads 
+[scan] processed 130000000 reads 
+[scan] processed 140000000 reads 
+[scan] processed 150000000 reads 
+[scan] processed 160000000 reads 
+[scan] processed 170000000 reads 
+[scan] processed 180000000 reads 
+[scan] processed 190000000 reads 
+[scan] processed 200000000 reads 
+[scan] processed 210000000 reads 
+[scan] processed 220000000 reads 
+[scan] processed 230000000 reads 
+[scan] processed 240000000 reads 
+[scan] processed 250000000 reads 
+[scan] processed 260000000 reads 
+[scan] processed 270000000 reads 
+[scan] processed 280000000 reads 
+[scan] processed 290000000 reads 
+[scan] processed 300000000 reads 
+[scan] processed 310000000 reads 
+[scan] processed 320000000 reads 
+[scan] processed 330000000 reads 
+[scan] processed 340000000 reads 
+[scan] processed 350000000 reads 
+[scan] processed 360000000 reads 
+[scan] processed 370000000 reads 
+[scan] processed 380000000 reads 
+[scan] processed 390000000 reads 
+[scan] processed 400000000 reads 
+[scan] processed 410000000 reads 
+[scan] processed 420000000 reads 
+[scan] processed 430000000 reads 
+[scan] processed 440000000 reads 
+[scan] processed 450000000 reads 
+[scan] processed 460000000 reads 
+[scan] processed 470000000 reads 
+[scan] processed 480000000 reads 
+[scan] processed 490000000 reads 
+[scan] processed 500000000 reads 
+[scan] processed 510000000 reads 
+[scan] processed 520000000 reads 
+[scan] processed 530000000 reads 
+[scan] processed 540000000 reads 
+[scan] processed 550000000 reads 
+[scan] processed 560000000 reads 
+[scan] processed 570000000 reads 
+[scan] processed 580000000 reads 
+[scan] processed 590000000 reads 
+[scan] processed 600000000 reads 
+[scan] processed 610000000 reads 
+[scan] processed 620000000 reads 
+[scan] processed 630000000 reads 
+[scan] processed 640000000 reads 
+[scan] processed 650000000 reads 
+[scan] processed 660000000 reads 
+[scan] processed 670000000 reads 
+[scan] processed 680000000 reads 
+[scan] processed 690000000 reads 
+[scan] processed 700000000 reads 
+[scan] processed 710000000 reads 
+[scan] processed 720000000 reads 
+[scan] processed 730000000 reads 
+[scan] processed 740000000 reads 
+[scan] processed 750000000 reads 
+[scan] processed 760000000 reads 
+[scan] processed 770000000 reads 
+[scan] processed 780000000 reads 
+[scan] total reads in BAM scanned 786427693
+Completed scanning BAM
+Completed writing results
+[timer - scan BAM] wall clock: 6152.77s CPU: 6152.29s
+Telseq end time: 1727312516
+Telseq time taken: 6153
+Running telomerehunter
+Telomerehunter start time: 1727312516
+
+
+	TelomereHunter  Copyright (C) 2015  Lina Sieverling, Philip Ginsbach, Lars Feuerbach
+	This program comes with ABSOLUTELY NO WARRANTY.
+	This is free software, and you are welcome to redistribute it
+	under certain conditions. For details see the GNU General Public License
+	in the license copy received with TelomereHunter or <http://www.gnu.org/licenses/>.
+
+
+TelomereHunter 1.1.0
+
+
+Tumor BAM file was not specified. Only running control BAM file.
+
+Repeat threshold was not set by user. Setting it to 6 reads per 100 bp read length.
+Calculating repeat threshold for control sample: Read length is 500. Repeat threshold is set to 30.
+
+------ Control Sample: started filtering telomere reads ------
+Process Process-1:
+Traceback (most recent call last):
+  File "/home/jake/anaconda3/envs/telomerehunter/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/home/jake/anaconda3/envs/telomerehunter/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/jake/anaconda3/envs/telomerehunter/bin/telomerehunter", line 103, in run_sample
+    remove_duplicates=remove_duplicates)
+  File "/home/jake/anaconda3/envs/telomerehunter/lib/python2.7/site-packages/telomerehunter/filter_telomere_reads.py", line 212, in filter_telomere_reads
+    band = chromosomeLsBand[i]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/home/jake/anaconda3/envs/telomerehunter/bin/telomerehunter", line 521, in <module>
+    shutil.copyfile(outdir + '/control_TelomerCnt_' + pid + '/' + pid + '_control_summary.tsv', summary_path)
+  File "/home/jake/anaconda3/envs/telomerehunter/lib/python2.7/shutil.py", line 96, in copyfile
+    with open(src, 'rb') as fsrc:
+IOError: [Errno 2] No such file or directory: '../results//HG00731/telomerehunter/HG00731/control_TelomerCnt_HG00731/HG00731_control_summary.tsv'
+Telomerehunter end time: 1727313402
+Telomerehunter time taken: 886
+Running telogator
+Telogator start time: 1727313402
+Warning: --muscle not specified, trying "muscle"...
+checking MUSCLE version... ok
+Warning: no aligner was specified, trying "minimap2"...
+using user-specified subtel reference: telogator-ref.fa.gz
+using default telomere kmers
+beginning telogator2...
+getting reads with at least 8 matches to CCCTAACCCTAA... (275 sec)
+ - 892957 --> 830 reads
+ - (49544043330 bp) --> (98558947 bp)
+filtering by read length (>4000bp)... (0 sec)
+ - 830 --> 817 reads
+getting telomere repeat composition... (169 sec)
+ - 817 --> 795 reads
+initial clustering of all reads... (4069 sec)
+ - 78 clusters (433 reads)
+ - (>= 3 reads per cluster)
+plotting initial clusters... (143 sec)
+refining clusters [TVR]... (765 sec)
+ - 46 clusters with tvrs (205 reads)
+ - 7 clusters removed for not ending in tel
+ - (236 tel reads without tvrs):
+ --- 236 ungrouped in initial clustering
+ --- 0 clustered but had no tvr
+skipping subtel cluster refinement...
+final reclustering to get TVRs and TLs for each allele... (5200 sec)
+ - 46 unique alleles
+ - 1 / 46 alleles have blank TVRs
+aligning subtels to reference... (525 sec)
+getting anchors from alignment... (4 sec)
+writing allele TL results to "tlens_by_allele.tsv"...
+ - 46 final telomere alleles
+ - 0 (unmapped)
+ - 0 (atl < 100 bp)
+ - 0 (interstitial)
+Telogator end time: 1727324597
+Telogator time taken: 11195
+Running tecat
+TECAT start time: 1727324597
+
+Attaching package: ‘TECAT’
+
+The following object is masked from ‘package:purrr’:
+
+    map
+
+
+Starting TECAT pipeline at:  1727324600 
+
+Starting to determine telomere read lengths at: 2024-09-26 00:23:19.552039
+
+Options:
+Threads: 18
+Output: ../results//HG00731/tecat
+Temporary: /tmp/RtmpZABEsE
+Sample_name: HG00731
+Meme bin: ~/meme/bin
+Input: /home/jake/tmp/comparative_study_temp//HG00731/input/lr/ERR11586165.fastq
+Reference: /home/jake/tmp/comparative_study_temp//HG00731/input/ref/chm13.draft_v1.1.fasta
+Length: 6
+Number: 10
+Start: Auto
+End: Auto
+Platform: ont
+Downsample ratio: 0.15
+Results: ../results//HG00731/tecat/tecat_results.csv
+
+
+Splitting fastq file at: 2024-09-26 00:23:19.552711
+
+Determining number of files to split into
+
+Splitting fastq file into 53 files
+
+This is the command for system call: 
+	 seqkit split2 /home/jake/tmp/comparative_study_temp//HG00731/input/lr/ERR11586165.fastq -s 16849 --threads 18 --by-size-prefix split_ --compress-level -1 --out-dir /tmp/RtmpZABEsE/split --extension .gz 
+
+[INFO] split seqs from /home/jake/tmp/comparative_study_temp//HG00731/input/lr/ERR11586165.fastq
+[INFO] split into 16849 seqs per file
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_001.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_002.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_003.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_004.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_005.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_006.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_007.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_008.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_009.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_010.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_011.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_012.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_013.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_014.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_015.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_016.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_017.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_018.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_019.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_020.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_021.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_022.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_023.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_024.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_025.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_026.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_027.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_028.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_029.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_030.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_031.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_032.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_033.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_034.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_035.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_036.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_037.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_038.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_039.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_040.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_041.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_042.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_043.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_044.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_045.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_046.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_047.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_048.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_049.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_050.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_051.fastq.gz
+[INFO] write 16849 sequences to file: /tmp/RtmpZABEsE/split/split_052.fastq.gz
+[INFO] write 16809 sequences to file: /tmp/RtmpZABEsE/split/split_053.fastq.gz
+
+Processing reference file at: 2024-09-26 00:28:08.808796
+
+Successfully loaded DNAStringSet reference.
+
+
+Reference data is not empty.
+
+
+Running MEME analysis with 18 threads.
+
+
+Motifs identified: 
+	CCCTAA
+	GGGTBRGGGT
+	GGGYTMGGG
+	AACCCCA
+	CCCTGG
+
+Motif information:
+
+Number of motifs:  25 
+
+Grep list:  
+$original1
+[1] "CCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAA"
+
+$original2
+[1] "GGGTBRGGGTGGGTBRGGGTGGGTBRGGGTGGGTBRGGGTGGGTBRGGGTGGGTBRGGGT"
+
+$original3
+[1] "GGGYTMGGGGGGYTMGGGGGGYTMGGGGGGYTMGGGGGGYTMGGGGGGYTMGGGGGGYTMGGG"
+
+$original4
+[1] "AACCCCAAACCCCAAACCCCAAACCCCAAACCCCAAACCCCAAACCCCAAACCCCAAACCCCA"
+
+$original5
+[1] "CCCTGGCCCTGGCCCTGGCCCTGGCCCTGGCCCTGGCCCTGGCCCTGGCCCTGGCCCTGG"
+
+$complement1
+[1] "GGGATTGGGATTGGGATTGGGATTGGGATTGGGATTGGGATTGGGATTGGGATTGGGATT"
+
+$complement2
+[1] "CCCAVYCCCACCCAVYCCCACCCAVYCCCACCCAVYCCCACCCAVYCCCACCCAVYCCCA"
+
+$complement3
+[1] "CCCRAKCCCCCCRAKCCCCCCRAKCCCCCCRAKCCCCCCRAKCCCCCCRAKCCCCCCRAKCCC"
+
+$complement4
+[1] "TTGGGGTTTGGGGTTTGGGGTTTGGGGTTTGGGGTTTGGGGTTTGGGGTTTGGGGTTTGGGGT"
+
+$complement5
+[1] "GGGACCGGGACCGGGACCGGGACCGGGACCGGGACCGGGACCGGGACCGGGACCGGGACC"
+
+$reverse1
+[1] "AATCCCAATCCCAATCCCAATCCCAATCCCAATCCCAATCCCAATCCCAATCCCAATCCC"
+
+$reverse2
+[1] "TGGGRBTGGGTGGGRBTGGGTGGGRBTGGGTGGGRBTGGGTGGGRBTGGGTGGGRBTGGG"
+
+$reverse3
+[1] "GGGMTYGGGGGGMTYGGGGGGMTYGGGGGGMTYGGGGGGMTYGGGGGGMTYGGGGGGMTYGGG"
+
+$reverse4
+[1] "ACCCCAAACCCCAAACCCCAAACCCCAAACCCCAAACCCCAAACCCCAAACCCCAAACCCCAA"
+
+$reverse5
+[1] "GGTCCCGGTCCCGGTCCCGGTCCCGGTCCCGGTCCCGGTCCCGGTCCCGGTCCCGGTCCC"
+
+$reverse_complement1
+[1] "TTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGG"
+
+$reverse_complement2
+[1] "ACCCYVACCCACCCYVACCCACCCYVACCCACCCYVACCCACCCYVACCCACCCYVACCC"
+
+$reverse_complement3
+[1] "CCCKARCCCCCCKARCCCCCCKARCCCCCCKARCCCCCCKARCCCCCCKARCCCCCCKARCCC"
+
+$reverse_complement4
+[1] "TGGGGTTTGGGGTTTGGGGTTTGGGGTTTGGGGTTTGGGGTTTGGGGTTTGGGGTTTGGGGTT"
+
+$reverse_complement5
+[1] "CCAGGGCCAGGGCCAGGGCCAGGGCCAGGGCCAGGGCCAGGGCCAGGGCCAGGGCCAGGG"
+
+$rev_reverse_complement1
+[1] "AATCCCAATCCCAATCCCAATCCCAATCCCAATCCCAATCCCAATCCCAATCCCAATCCC"
+
+$rev_reverse_complement2
+[1] "TGGGRBTGGGTGGGRBTGGGTGGGRBTGGGTGGGRBTGGGTGGGRBTGGGTGGGRBTGGG"
+
+$rev_reverse_complement3
+[1] "GGGMTYGGGGGGMTYGGGGGGMTYGGGGGGMTYGGGGGGMTYGGGGGGMTYGGGGGGMTYGGG"
+
+$rev_reverse_complement4
+[1] "ACCCCAAACCCCAAACCCCAAACCCCAAACCCCAAACCCCAAACCCCAAACCCCAAACCCCAA"
+
+$rev_reverse_complement5
+[1] "GGTCCCGGTCCCGGTCCCGGTCCCGGTCCCGGTCCCGGTCCCGGTCCCGGTCCCGGTCCC"
+
+
+Pattern searching at: 2024-09-26 00:29:26.979765
+Searching for telomeres in 53 files
+Using 18 threads
+
+  |                                                              |   0%, ETA NAProcessing: /tmp/RtmpZABEsE/split/split_001.fastq.gz
+
+Processing: /tmp/RtmpZABEsE/split/split_002.fastq.gz
+
+Processing: /tmp/RtmpZABEsE/split/split_003.fastq.gz
+
+Processing: /tmp/RtmpZABEsE/split/split_004.fastq.gz
+
+Processing: /tmp/RtmpZABEsE/split/split_005.fastq.gz
+
+Processing: /tmp/RtmpZABEsE/split/split_006.fastq.gz
+
+Processing: /tmp/RtmpZABEsE/split/split_007.fastq.gz
+
+Processing: /tmp/RtmpZABEsE/split/split_008.fastq.gz
+
+Processing: /tmp/RtmpZABEsE/split/split_009.fastq.gz
+
+Processing: /tmp/RtmpZABEsE/split/split_010.fastq.gz
+
+Processing: /tmp/RtmpZABEsE/split/split_011.fastq.gz
+
+Processing: /tmp/RtmpZABEsE/split/split_012.fastq.gz
+
+Processing: /tmp/RtmpZABEsE/split/split_013.fastq.gz
+
+Processing: /tmp/RtmpZABEsE/split/split_014.fastq.gz
+
+Processing: /tmp/RtmpZABEsE/split/split_015.fastq.gz
+
+Processing: /tmp/RtmpZABEsE/split/split_016.fastq.gz
+
+Processing: /tmp/RtmpZABEsE/split/split_017.fastq.gz
+
+Processing: /tmp/RtmpZABEsE/split/split_018.fastq.gz
+
+Processing: /tmp/RtmpZABEsE/split/split_023.fastq.gz
+
+  |=                                                          |   2%, ETA 53:47Processing: /tmp/RtmpZABEsE/split/split_019.fastq.gz
+
+  |==                                                         |   4%, ETA 41:53Processing: /tmp/RtmpZABEsE/split/split_028.fastq.gz
+
+  |===                                                        |   6%, ETA 28:16Processing: /tmp/RtmpZABEsE/split/split_026.fastq.gz
+
+  |====                                                       |   8%, ETA 23:02Processing: /tmp/RtmpZABEsE/split/split_024.fastq.gz
+
+  |======                                                     |   9%, ETA 18:16Processing: /tmp/RtmpZABEsE/split/split_031.fastq.gz
+
+  |========                                                   |  13%, ETA 13:11Processing: /tmp/RtmpZABEsE/split/split_022.fastq.gz
+
+  |=========                                                  |  15%, ETA 11:18Processing: /tmp/RtmpZABEsE/split/split_032.fastq.gz
+
+Processing: /tmp/RtmpZABEsE/split/split_034.fastq.gz
+
+  |==========                                                 |  17%, ETA 09:56Processing: /tmp/RtmpZABEsE/split/split_030.fastq.gz
+
+  |===========                                                |  19%, ETA 08:50Processing: /tmp/RtmpZABEsE/split/split_027.fastq.gz
+
+  |============                                               |  21%, ETA 08:09Processing: /tmp/RtmpZABEsE/split/split_033.fastq.gz
+
+  |=============                                              |  23%, ETA 07:26Processing: /tmp/RtmpZABEsE/split/split_036.fastq.gz
+
+  |==============                                             |  25%, ETA 06:46Processing: /tmp/RtmpZABEsE/split/split_020.fastq.gz
+
+  |================                                           |  26%, ETA 06:10Processing: /tmp/RtmpZABEsE/split/split_035.fastq.gz
+
+  |=================                                          |  28%, ETA 05:44Processing: /tmp/RtmpZABEsE/split/split_021.fastq.gz
+
+  |==================                                         |  30%, ETA 05:23Processing: /tmp/RtmpZABEsE/split/split_025.fastq.gz
+
+  |===================                                        |  32%, ETA 05:04Processing: /tmp/RtmpZABEsE/split/split_029.fastq.gz
+
+  |====================                                       |  34%, ETA 04:40Processing: /tmp/RtmpZABEsE/split/split_041.fastq.gz
+
+  |=====================                                      |  36%, ETA 04:40Processing: /tmp/RtmpZABEsE/split/split_037.fastq.gz
+
+  |======================                                     |  38%, ETA 05:43Processing: /tmp/RtmpZABEsE/split/split_049.fastq.gz
+
+  |=======================                                    |  40%, ETA 05:17Processing: /tmp/RtmpZABEsE/split/split_042.fastq.gz
+
+  |========================                                   |  42%, ETA 05:00Processing: /tmp/RtmpZABEsE/split/split_048.fastq.gz
+
+  |==========================                                 |  43%, ETA 04:44Processing: /tmp/RtmpZABEsE/split/split_051.fastq.gz
+
+  |===========================                                |  45%, ETA 04:27Processing: /tmp/RtmpZABEsE/split/split_044.fastq.gz
+
+  |============================                               |  47%, ETA 04:16Processing: /tmp/RtmpZABEsE/split/split_050.fastq.gz
+
+  |==============================                             |  51%, ETA 03:54Processing: /tmp/RtmpZABEsE/split/split_046.fastq.gz
+
+Processing: /tmp/RtmpZABEsE/split/split_039.fastq.gz
+
+  |===============================                            |  53%, ETA 03:38Processing: /tmp/RtmpZABEsE/split/split_052.fastq.gz
+
+  |================================                           |  55%, ETA 03:26Processing: /tmp/RtmpZABEsE/split/split_045.fastq.gz
+
+  |===================================                        |  58%, ETA 03:06Processing: /tmp/RtmpZABEsE/split/split_038.fastq.gz
+
+  |====================================                       |  60%, ETA 02:52Processing: /tmp/RtmpZABEsE/split/split_043.fastq.gz
+
+  |=====================================                      |  62%, ETA 02:39Processing: /tmp/RtmpZABEsE/split/split_040.fastq.gz
+
+  |======================================                     |  64%, ETA 02:28Processing: /tmp/RtmpZABEsE/split/split_047.fastq.gz
+
+  |========================================                   |  68%, ETA 02:09Processing: /tmp/RtmpZABEsE/split/split_053.fastq.gz
+
+  |=======================================================| 100%, Elapsed 06:06
+
+Writing files to: /tmp/RtmpZABEsE/telo
+
+
+| mean_telomere_read_length| total_telomere_length| telomere_count| telomere_percent_of_reads| telomere_percent_of_bases|file_name |
+|-------------------------:|---------------------:|--------------:|-------------------------:|-------------------------:|:---------|
+|                 152914.89|               1376234|              9|                 0.0534156|                 0.1256833|split_001 |
+|                  99642.31|               1594277|             16|                 0.0949611|                 0.1718873|split_002 |
+|                 137763.89|               2617514|             19|                 0.1127663|                 0.2672985|split_003 |
+|                  38151.29|                267059|              7|                 0.0415455|                 0.0308402|split_004 |
+|                  52117.08|                677522|             13|                 0.0771559|                 0.0954460|split_005 |
+|                  76220.91|                838430|             11|                 0.0652858|                 0.0925744|split_006 |
+
+Number of telomeres:  638 
+
+Cutting into sliding windows at: 2024-09-26 00:35:39.430303
+
+Determining environment at: 2024-09-26 00:35:39.430448
+  |=======================================================| 100%, Elapsed 00:19
+
+Calculating frequencies at: 2024-09-26 00:37:34.022195
+  |=======================================================| 100%, Elapsed 39:02
+	Saving files to ../results//HG00731/tecat/frequencies
+
+
+| start| end| window_length| telomere_count| motif_frequency|hit_motif  |  NA|sequence_name        |
+|-----:|---:|-------------:|--------------:|---------------:|:----------|---:|:--------------------|
+|     1| 200|           200|             15|              75|ACCCYVACCC |   1|split_001_telomere_1 |
+|   101| 300|           200|             20|             100|ACCCYVACCC | 101|split_001_telomere_1 |
+|   201| 400|           200|             20|             100|ACCCYVACCC | 201|split_001_telomere_1 |
+|   301| 500|           200|             23|             100|ACCCYVACCC | 301|split_001_telomere_1 |
+|   401| 600|           200|             22|             100|ACCCYVACCC | 401|split_001_telomere_1 |
+|   501| 700|           200|             22|             100|ACCCYVACCC | 501|split_001_telomere_1 |
+
+Determining thresholds at: 2024-09-26 01:16:38.609095
+
+Determining thresholds for full 
+
+           data set based off of downsampled data, 
+
+           and start threshold of 50.
+
+Determining thresholds for full 
+
+            data set based off of downsampled data, 
+
+            and start threshold of 50.
+
+Determining telomere length at: 2024-09-26 01:16:47.222834
+
+
+|                     | telomere_length| read_length| trunc_start| trunc_end|telomere_end |
+|:--------------------|---------------:|-----------:|-----------:|---------:|:------------|
+|split_001_telomere_1 |            1643|       25142|        1644|     25142|L            |
+|split_001_telomere_2 |            1841|        3155|        1842|      3155|L            |
+|split_001_telomere_3 |            2451|       42951|           1|     40500|R            |
+|split_001_telomere_4 |           13515|      116075|           1|    102560|R            |
+|split_001_telomere_5 |           15033|      177783|           1|    162750|R            |
+|split_001_telomere_6 |            5278|       14048|           1|      8770|R            |
+
+Number of NAs:  95 
+
+Truncating and mapping reads at: 2024-09-26 01:16:47.657928
+
+Writing files to: ../results//HG00731/tecat/truncated
+Generating output file: ../results//HG00731/tecat/mapped/mapped
+Running minimap2...
+Running minimap with the following command:
+
+/home/jake/software/minimap2/minimap2 -ax map-ont -t 18 /home/jake/tmp/comparative_study_temp//HG00731/input/ref/chm13.draft_v1.1.fasta ../results//HG00731/tecat/truncated/truncated_reads.fa -o ../results//HG00731/tecat/mapped/mapped.sam --secondary=no
+[M::mm_idx_gen::31.919*1.47] collected minimizers
+[M::mm_idx_gen::34.292*2.59] sorted minimizers
+[M::main::34.292*2.59] loaded/built the index for 24 target sequence(s)
+[M::mm_mapopt_update::35.491*2.53] mid_occ = 835
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 24
+[M::mm_idx_stat::36.186*2.50] distinct minimizers: 100094099 (38.86% are singletons); average occurrences: 5.748; average spacing: 5.310; total length: 3054832041
+[M::worker_pipeline::146.986*9.73] mapped 543 sequences
+[M::main] Version: 2.28-r1209
+[M::main] CMD: /home/jake/software/minimap2/minimap2 -ax map-ont -t 18 -o ../results//HG00731/tecat/mapped/mapped.sam --secondary=no /home/jake/tmp/comparative_study_temp//HG00731/input/ref/chm13.draft_v1.1.fasta ../results//HG00731/tecat/truncated/truncated_reads.fa
+[M::main] Real time: 147.096 sec; CPU: 1429.791 sec; Peak RSS: 14.099 GB
+
+
+|telo_name             |ref_name |strand | start|   end| qwidth| score| telomere_length| read_length| trunc_start| trunc_end|telomere_end |chromEnd |sample  |
+|:---------------------|:--------|:------|-----:|-----:|------:|-----:|---------------:|-----------:|-----------:|---------:|:------------|:--------|:-------|
+|split_002_telomere_11 |chr1     |-      |  2710| 82609|  79900|    60|            3705|       83605|           1|     79900|R            |5'       |HG00731 |
+|split_006_telomere_10 |chr1     |-      |  2710| 88309|  85600|    60|           11798|       97398|           1|     85600|R            |5'       |HG00731 |
+|split_037_telomere_3  |chr1     |-      |  2710| 71699|  68990|    60|            6974|       75964|           1|     68990|R            |5'       |HG00731 |
+|split_046_telomere_7  |chr1     |-      |  2710| 15609|  12900|    19|            4857|       17757|           1|     12900|R            |5'       |HG00731 |
+|split_015_telomere_3  |chr1     |-      |  2851| 79230|  76380|     1|            5129|       81509|           1|     76380|R            |5'       |HG00731 |
+|split_042_telomere_16 |chr1     |-      |  2880| 23479|  20600|    34|            9771|       30371|           1|     20600|R            |5'       |HG00731 |
+
+Plotting telomere lengths at: 2024-09-26 01:19:41.452661
+Warning message:
+Cannot compute density for groups with fewer than two datapoints. 
+
+TECAT pipeline completed at:  1727327982 
+
+Total time:  56.38166 
+TECAT end time: 1727327983
+TECAT time taken: 3386
+Telseq time taken: 6153
+Telomerehunter time taken: 886
+Telogator time taken: 11195
+TECAT time taken: 3386
+Output directory: ../results//HG00731
+End time: Thu Sep 26 01:19:43 AM EDT 2024
+JOBS DONE... :)
