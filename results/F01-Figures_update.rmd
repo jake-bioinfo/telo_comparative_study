@@ -56,23 +56,23 @@ library(reshape2)
 ```{r samples}
 # Create the data frame, including ineligible rows with a note
 data <- data.frame(
-  Number = c(1, 2, 3, 4, 5, 6, 7, 8, 9, "-10", "-11", "-12"),
-  SampleID = c("HG002", "HG004", "HG00731", "HG00732", "HG02011", 
+  Number = c(1, 2, 3, 4, 5, 6, 7, 8, 9, "-10", "-11", "-12", 10),
+  SampleID = c("HG002", "HG003", "HG004", "HG00731", "HG00732", "HG02011", 
                "HG02492", "HG03065", "HG03371", "HG03683", "NA12329", 
                "NA19983", "HG00514"),
-  `Long Read Accession` = c("SRR28295757-71", "SRR12898316", 
+  `Long Read Accession` = c("SRR28295757-71", "SRR12898316", "SRR27010837", 
                           "ERR11586165", "ERR4987503-05", "ERR11028132", 
                           "ERR11028099", "ERR11028096", "ERR11028137", 
                           "ERR3861403", "ERR3861409-10", "ERR3861402", 
                           "ERR4982327"),
-  Short_Read_Accession = c("SRR14724532", "SRR14724530", 
+  Short_Read_Accession = c("SRR14724532", "SRR14724530", "SRR14724529", 
                            "ERR10967205", "ERR3241755", "ERR3988973", 
                            "ERR3989019", "ERR3989118", "ERR3989162", 
                            "ERR3989199", "ERR3989317", "ERR3989454", 
                            "ERR3988781"),
-  Type = c("ONT", "ONT", "ONT", "PB", "ONT", "ONT", "ONT", 
+  Type = c("ONT", "ONT", "ONT", "ONT", "PB", "ONT", "ONT", "ONT", 
               "ONT", "PB", "PB", "PB", "PB"),
-  Notes = c("", "", "updated SR SRR5534404-5", "", "", "", "", "", 
+  Notes = c("", "", "", "updated SR SRR5534404-5", "", "", "", "", "", 
             "CLR - not eligible", "CLR - not eligible", "CLR - not eligible", "")
 )
 
@@ -82,7 +82,8 @@ data <- data[, 1:5]
 df <- data
 
 # Current samples list
-samples <- c("HG002", "HG004", "HG00731", "HG00732", "HG02011", "HG02492", "HG03065", "HG03371", "HG00514")
+samples <- c("HG002", "HG003", "HG004", "HG00514", "HG00731", "HG00732", 
+             "HG02011", "HG02492", "HG03065", "HG03371")
 ```
 
 # Publication ready table
@@ -106,6 +107,7 @@ tecat_reads <- list()
 telogator_reads <- list()
 
 for(s in samples) {
+    cat(s, "\n")
     tecat_reads[[s]] <- as.numeric(strsplit(grep("Number of telomeres", readLines(file.path("./code/logs", paste0(s, ".log"))), value = TRUE), ":")[[1]][2])
     telogator_grep <- "^ -"
     line <- grep(telogator_grep, readLines(file.path("./code/logs", paste0(s, ".log"))), value = TRUE)[[3]]
