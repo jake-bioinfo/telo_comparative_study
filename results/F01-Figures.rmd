@@ -94,7 +94,7 @@ sample_table <- kable(df,
        align = c("c", "c", "c", "c", "c"), 
        caption = "<font style='font-size:16pt'><b>Table 1</b> Sample Data</font>") %>%
  kable_classic(full_width = FALSE, html_font = "Arial", font_size = 14)
-# kableExtra::save_kable(sample_table, file = "./results/paper_figures/sample_table.png", density = 600, zoom = 1.5)
+#kableExtra::save_kable(sample_table, file = "./results/paper_figures/sample_table.png", density = 600, zoom = 1.5)
 
 sample_table
 ```

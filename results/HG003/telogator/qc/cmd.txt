@@ -1,1 +1,0 @@
-telogator2.py -i SRR12898316.fastq -o telogator -p 18 -t telogator-ref.fa.gz -r ont --debug-nosubtel
