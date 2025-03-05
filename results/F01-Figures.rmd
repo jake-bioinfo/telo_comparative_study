@@ -94,7 +94,7 @@ sample_table <- kable(df,
        align = c("c", "c", "c", "c", "c"), 
        caption = "<font style='font-size:16pt'><b>Table 1</b> Sample Data</font>") %>%
  kable_classic(full_width = FALSE, html_font = "Arial", font_size = 14)
-#kableExtra::save_kable(sample_table, file = "./results/paper_figures/sample_table.png", density = 600, zoom = 1.5)
+#kableExtra::save_kable(sample_table, file = "./results/paper_figures/sample_table.png", density = 600, zoom = 3)
 
 sample_table
 ```
@@ -215,7 +215,7 @@ dens <- dens + geom_vline(aes(xintercept = line, linetype = "Schmidt\ 2024")) +
 dens
 
 # Save plot
-ggsave(file = "./results/paper_figures/density_plot.png", plot = dens, width = 12, height = 6)
+# ggsave(file = "./results/paper_figures/density_plot.png", plot = dens, width = 12, height = 6)
 ```
 
 # Descriptive statistics of each sample
@@ -588,6 +588,15 @@ wide <- wide[order(wide$TECAT), ]
 wide$TECAT_mbpsec <- wide$total_size_bp / wide$TECAT / 10^6
 wide$TELOGATOR_mbpsec <- wide$total_size_bp / wide$TELOGATOR / 10^6
 wide
+
+# Print means, median and std dev for each tool in wide
+cat("Tool | Mean | Median | Inter Quartile Range\n")
+wide %>%
+    summarise(tecat = mean(TECAT_mbpsec), telogator = mean(TELOGATOR_mbpsec))
+wide %>%
+    summarise(tecat = median(TECAT_mbpsec), telogator = median(TELOGATOR_mbpsec))
+wide %>%  
+    summarise(tecat = IQR(TECAT_mbpsec), telogator = IQR(TELOGATOR_mbpsec))
 
 long <- melt(wide, id.vars = c("sample", "num_reads", "total_size_bp"), measure.vars = c("TECAT", "TELOGATOR"))
 
